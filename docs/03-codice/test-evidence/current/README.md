@@ -20,3 +20,9 @@ Las imágenes siguientes se renderizaron desde controles WPF reales, en una copi
 | [12](ui/12-StudentReport.png) | Informe individual y filtro opcional. |
 
 Las pruebas Desktop comprueban comandos/ViewModels y persistencia. El render comprueba carga de recursos, enlaces y presentación; no equivale a una certificación completa de interacción manual o accesibilidad.
+
+## Revalidación del 8 de octubre de 2026
+
+Los tres TRX se actualizaron: 41 + 8 + 6 = 55 casos aprobados, compilación con cero errores y advertencias. `verification-output.txt` conserva la ejecución anterior del 6 de octubre; la ejecución vigente está identificada en los TRX.
+
+`release-ui.json` vincula las doce imágenes nuevas al ejecutable, ensamblado y manifiesto del paquete mediante SHA-256. `portable-startup.json` ya no declara revisión visual: este verificador solo acredita arranque/runtime/bloqueo/permisos/traslado/hashes. La interacción directa se describe en `manual-acceptance.md`. Otro Windows limpio continúa pendiente; protocolo en `../../portable/clean-windows-acceptance.md`.

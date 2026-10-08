@@ -1,0 +1,118 @@
+Window: "Códice · Gestión académica", App: Codice.Desktop.exe.
+	0 ventana Códice · Gestión académica Secondary Actions: Raise
+		1 barra de título (settable, string) Value: Códice · Gestión académica
+			2 barra de menús Sistema ID: MenuBar
+				3 elemento de menú Sistema
+			4 botón Minimizar
+			5 botón Maximizar
+			6 botón Cerrar
+		7 texto Códice
+		8 texto GESTIÓN ACADÉMICA
+		9 vista de lista
+			10 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				11 botón Inicio
+					12 texto Inicio
+			13 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				14 botón Estudiantes
+					15 texto Estudiantes
+			16 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				17 botón Asignaturas
+					18 texto Asignaturas
+			19 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				20 botón Cursos
+					21 texto Cursos
+			22 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				23 botón Calificaciones
+					24 texto Calificaciones
+			25 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				26 botón Asistencia
+					27 texto Asistencia
+			28 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				29 botón Informes
+					30 texto Informes
+		31 texto Tu información, organizada.
+		32 texto Datos locales
+		33 texto Asistencia
+		34 texto Consulta cada sesión y distingue presentes, ausentes y registros pendientes.
+		411 texto Asistencia corregida sin duplicar el registro.
+		35 botón Actualizar
+			36 texto Actualizar
+		334 personalizado
+			335 panel
+				336 texto Curso *
+				337 cuadro combinado
+				338 texto Sesión * · fecha y hora
+				339 cuadro combinado
+				340 texto Asistencia de la sesión
+				341 cuadrícula de datos
+					342 encabezado ID: PART_ColumnHeadersPresenter
+						343 elemento de encabezado Estudiante
+							344 texto Estudiante
+							345 miniatura ID: PART_RightHeaderGripper
+						346 elemento de encabezado Estado
+							347 texto Estado
+							348 miniatura ID: PART_LeftHeaderGripper
+							349 miniatura ID: PART_RightHeaderGripper
+					412 elemento de datos (selectable) AttendanceRow { Enrollment = EnrollmentItem { Id = 2598025d-6f41-4449-94f1-9b085636ffdb, StudentId = 169ff330-a1d7-4f52-bdc8-cc6f20989c7a, Student = EST-001 · Ana Pérez, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-001 · Ana Pérez, Status = Ausente }
+						413 celda de cuadrícula de datos EST-001 · Ana Pérez Value: EST-001 · Ana Pérez
+							414 texto EST-001 · Ana Pérez Description: EST-001 · Ana Pérez
+						415 celda de cuadrícula de datos Ausente Value: Ausente
+							416 texto Ausente Description: Ausente
+					417 elemento de datos (selectable) AttendanceRow { Enrollment = EnrollmentItem { Id = 127b96eb-d8e2-4998-8468-b49de7a763ca, StudentId = 99bc2da4-7ab9-420b-b9e6-d0815820b2b9, Student = EST-002 · Benjamín Soto, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-002 · Benjamín Soto, Status = Ausente }
+						418 celda de cuadrícula de datos EST-002 · Benjamín Soto Value: EST-002 · Benjamín Soto
+							419 texto EST-002 · Benjamín Soto Description: EST-002 · Benjamín Soto
+						420 celda de cuadrícula de datos Ausente Value: Ausente
+							421 texto Ausente Description: Ausente
+					422 elemento de datos (selectable) AttendanceRow { Enrollment = EnrollmentItem { Id = edafbb90-5809-4f9e-9eb5-ff21428814a7, StudentId = f6cfc272-4d40-43e4-9b44-65ffdfcd635a, Student = EST-003 · Camila Rojas, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-003 · Camila Rojas, Status = Presente }
+						423 celda de cuadrícula de datos EST-003 · Camila Rojas Value: EST-003 · Camila Rojas
+							424 texto EST-003 · Camila Rojas Description: EST-003 · Camila Rojas
+						425 celda de cuadrícula de datos Presente Value: Presente
+							426 texto Presente Description: Presente
+					427 elemento de datos (selectable) AttendanceRow { Enrollment = EnrollmentItem { Id = 873a6118-ba4b-4123-8780-aa2fba7f4ab1, StudentId = 9084916c-61d2-4b1d-b36e-09315bf22a5c, Student = EST-004 · Diego Muñoz, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-004 · Diego Muñoz, Status = Presente }
+						428 celda de cuadrícula de datos EST-004 · Diego Muñoz Value: EST-004 · Diego Muñoz
+							429 texto EST-004 · Diego Muñoz Description: EST-004 · Diego Muñoz
+						430 celda de cuadrícula de datos Presente Value: Presente
+							431 texto Presente Description: Presente
+					432 elemento de datos (selectable) AttendanceRow { Enrollment = EnrollmentItem { Id = c65bb21e-11f7-44f8-a240-31f1ae99a398, StudentId = 0a527b44-3347-4214-8754-079c278f9314, Student = EST-005 · Elena Vargas, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-005 · Elena Vargas, Status = Presente }
+						433 celda de cuadrícula de datos EST-005 · Elena Vargas Value: EST-005 · Elena Vargas
+							434 texto EST-005 · Elena Vargas Description: EST-005 · Elena Vargas
+						435 celda de cuadrícula de datos Presente Value: Presente
+							436 texto Presente Description: Presente
+					437 elemento de datos (selectable) AttendanceRow { Enrollment = EnrollmentItem { Id = 7483f5d1-c135-4ee5-8118-2aa995b08d76, StudentId = c88253b5-1367-4b2b-a024-5f894f943f9d, Student = EST-006 · Felipe Contreras, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-006 · Felipe Contreras, Status = Sin registrar }
+						438 celda de cuadrícula de datos EST-006 · Felipe Contreras Value: EST-006 · Felipe Contreras
+							439 texto EST-006 · Felipe Contreras Description: EST-006 · Felipe Contreras
+						440 celda de cuadrícula de datos Sin registrar Value: Sin registrar
+							441 texto Sin registrar Description: Sin registrar
+				350 texto Sin registrar es distinto de Ausente. Las sesiones futuras no admiten asistencia.
+				351 texto Registrar o corregir
+				352 texto Estudiante *
+				353 cuadro combinado
+				354 texto Estado *
+				355 cuadro combinado
+				356 botón Registrar asistencia
+					357 texto Registrar asistencia
+				358 botón Corregir asistencia
+					359 texto Corregir asistencia
+
+Document text: ```
+Curso *
+Sesión * · fecha y hora
+Asistencia de la sesión
+Estudiante
+Estado
+EST-001 · Ana Pérez
+Ausente
+EST-002 · Benjamín Soto
+EST-003 · Camila Rojas
+Presente
+EST-004 · Diego Muñoz
+EST-005 · Elena Vargas
+EST-006 · Felipe Contreras
+Sin registrar
+Sin registrar es distinto de Ausente. Las sesiones futuras no admiten asistencia.
+Registrar o corregir
+Estudiante *
+Estado *
+Registrar asistencia
+Corregir asistencia
+```

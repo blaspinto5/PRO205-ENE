@@ -1,0 +1,25 @@
+{
+  "student": {
+    "Id": "4EC61369-617B-4559-B762-F49DF753BF7E",
+    "StudentCode": "QA-008",
+    "FirstName": "Prueba editada",
+    "LastName": "Aceptación"
+  },
+  "grade": {
+    "Id": "EEFFB0BC-B4DC-4D71-817E-CA83DBB16C06",
+    "RecordedAt": "2026-10-08 18:28:34.062254+00:00",
+    "UpdatedAt": "2026-10-08 18:33:37.8460053+00:00",
+    "AssessmentId": "03A4E077-8646-402D-BD78-409E93EC015D",
+    "ValueTenths": 55,
+    "EnrollmentId": "2598025D-6F41-4449-94F1-9B085636FFDB"
+  },
+  "attendance": {
+    "Id": "6538BF9A-B986-48CC-AAC5-2BCAE01CD9A6",
+    "RecordedAt": "2026-10-08 18:28:34.1069012+00:00",
+    "UpdatedAt": "2026-10-08 18:34:49.6337045+00:00",
+    "SessionId": "AF5CB586-836D-47E4-881F-D99EC67A8E6C",
+    "Status": 1,
+    "EnrollmentId": "2598025D-6F41-4449-94F1-9B085636FFDB"
+  },
+  "integrity": "ok"
+}

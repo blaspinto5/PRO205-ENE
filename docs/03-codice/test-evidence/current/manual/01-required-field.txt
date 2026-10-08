@@ -1,0 +1,86 @@
+Window: "Códice · Gestión académica", App: Codice.Desktop.exe.
+	0 ventana Códice · Gestión académica Secondary Actions: Raise
+		1 barra de título (settable, string) Value: Códice · Gestión académica
+			2 barra de menús Sistema ID: MenuBar
+				3 elemento de menú Sistema
+			4 botón Minimizar
+			5 botón Maximizar
+			6 botón Cerrar
+		7 texto Códice
+		8 texto GESTIÓN ACADÉMICA
+		9 vista de lista
+			10 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				11 botón Inicio
+					12 texto Inicio
+			13 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				14 botón Estudiantes
+					15 texto Estudiantes
+			16 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				17 botón Asignaturas
+					18 texto Asignaturas
+			19 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				20 botón Cursos
+					21 texto Cursos
+			22 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				23 botón Calificaciones
+					24 texto Calificaciones
+			25 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				26 botón Asistencia
+					27 texto Asistencia
+			28 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				29 botón Informes
+					30 texto Informes
+		31 texto Tu información, organizada.
+		32 texto Datos locales
+		33 texto Estudiantes
+		34 texto Registra estudiantes y actualiza sus nombres conservando su historia académica.
+		157 texto Completa el código del estudiante.
+		35 botón Actualizar
+			36 texto Actualizar
+		84 personalizado
+			85 panel
+				86 texto Listado de estudiantes
+				87 texto Buscar por código o nombre
+				88 editar (settable, string) Buscar estudiante
+				89 cuadrícula de datos
+					90 encabezado ID: PART_ColumnHeadersPresenter
+						91 elemento de encabezado Código
+							92 texto Código
+							93 miniatura ID: PART_RightHeaderGripper
+						94 elemento de encabezado Nombres
+							95 texto Nombres
+							96 miniatura ID: PART_LeftHeaderGripper
+							97 miniatura ID: PART_RightHeaderGripper
+						98 elemento de encabezado Apellidos
+							99 texto Apellidos
+							100 miniatura ID: PART_LeftHeaderGripper
+							101 miniatura ID: PART_RightHeaderGripper
+				144 texto Selecciona una fila para editar. Usa Nuevo para registrar otra ficha.
+				145 texto Ficha del estudiante
+				146 texto Código *
+				147 editar (settable, string) Código de estudiante
+				148 texto Nombres *
+				149 editar (settable, string) Nombres
+				150 texto Apellidos *
+				151 editar (settable, string) Apellidos
+				152 texto * Obligatorio. El código no cambia al editar.
+				153 botón Guardar estudiante
+					154 texto Guardar estudiante
+				155 botón Nuevo
+					156 texto Nuevo
+
+Document text: ```
+Listado de estudiantes
+Buscar por código o nombre
+Código
+Nombres
+Apellidos
+Selecciona una fila para editar. Usa Nuevo para registrar otra ficha.
+Ficha del estudiante
+Código *
+Nombres *
+Apellidos *
+* Obligatorio. El código no cambia al editar.
+Guardar estudiante
+Nuevo
+```

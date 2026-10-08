@@ -1,0 +1,100 @@
+Window: "Códice · Gestión académica", App: Codice.Desktop.exe.
+	0 ventana Códice · Gestión académica Secondary Actions: Raise
+		1 barra de título (settable, string) Value: Códice · Gestión académica
+			2 barra de menús Sistema ID: MenuBar
+				3 elemento de menú Sistema
+			4 botón Minimizar
+			5 botón Maximizar
+			6 botón Cerrar
+		7 texto Códice
+		8 texto GESTIÓN ACADÉMICA
+		9 vista de lista
+			10 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				11 botón Inicio
+					12 texto Inicio
+			13 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				14 botón Estudiantes
+					15 texto Estudiantes
+			16 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				17 botón Asignaturas
+					18 texto Asignaturas
+			19 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				20 botón Cursos
+					21 texto Cursos
+			22 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				23 botón Calificaciones
+					24 texto Calificaciones
+			25 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				26 botón Asistencia
+					27 texto Asistencia
+			28 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				29 botón Informes
+					30 texto Informes
+		31 texto Tu información, organizada.
+		32 texto Datos locales
+		33 texto Calificaciones
+		34 texto Registra una nota por evaluación y estudiante. Las correcciones se realizan de forma explícita.
+		303 texto Nota corregida. Se conservó la identidad del registro.
+		35 botón Actualizar
+			36 texto Actualizar
+		232 personalizado
+			233 panel
+				234 texto Curso *
+				235 cuadro combinado
+				236 texto Evaluación *
+				237 cuadro combinado
+				238 texto Notas de la evaluación
+				239 cuadrícula de datos
+					240 encabezado ID: PART_ColumnHeadersPresenter
+						241 elemento de encabezado Estudiante
+							242 texto Estudiante
+							243 miniatura ID: PART_RightHeaderGripper
+						244 elemento de encabezado Nota
+							245 texto Nota
+							246 miniatura ID: PART_LeftHeaderGripper
+							247 miniatura ID: PART_RightHeaderGripper
+					304 elemento de datos (selectable) GradeRow { Enrollment = EnrollmentItem { Id = 2598025d-6f41-4449-94f1-9b085636ffdb, StudentId = 169ff330-a1d7-4f52-bdc8-cc6f20989c7a, Student = EST-001 · Ana Pérez, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-001 · Ana Pérez, Value = 5,5 }
+						305 celda de cuadrícula de datos EST-001 · Ana Pérez Value: EST-001 · Ana Pérez
+							306 texto EST-001 · Ana Pérez Description: EST-001 · Ana Pérez
+						307 celda de cuadrícula de datos 5,5 Value: 5,5
+							308 texto 5,5 Description: 5,5
+					309 elemento de datos (selectable) GradeRow { Enrollment = EnrollmentItem { Id = 127b96eb-d8e2-4998-8468-b49de7a763ca, StudentId = 99bc2da4-7ab9-420b-b9e6-d0815820b2b9, Student = EST-002 · Benjamín Soto, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-002 · Benjamín Soto, Value = 6,1 }
+						310 celda de cuadrícula de datos EST-002 · Benjamín Soto Value: EST-002 · Benjamín Soto
+							311 texto EST-002 · Benjamín Soto Description: EST-002 · Benjamín Soto
+						312 celda de cuadrícula de datos 6,1 Value: 6,1
+							313 texto 6,1 Description: 6,1
+					314 elemento de datos (selectable) GradeRow { Enrollment = EnrollmentItem { Id = edafbb90-5809-4f9e-9eb5-ff21428814a7, StudentId = f6cfc272-4d40-43e4-9b44-65ffdfcd635a, Student = EST-003 · Camila Rojas, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-003 · Camila Rojas, Value = 5,5 }
+						315 celda de cuadrícula de datos EST-003 · Camila Rojas Value: EST-003 · Camila Rojas
+							316 texto EST-003 · Camila Rojas Description: EST-003 · Camila Rojas
+						317 celda de cuadrícula de datos 5,5 Value: 5,5
+							318 texto 5,5 Description: 5,5
+					319 elemento de datos (selectable) GradeRow { Enrollment = EnrollmentItem { Id = 873a6118-ba4b-4123-8780-aa2fba7f4ab1, StudentId = 9084916c-61d2-4b1d-b36e-09315bf22a5c, Student = EST-004 · Diego Muñoz, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-004 · Diego Muñoz, Value = 5,9 }
+						320 celda de cuadrícula de datos EST-004 · Diego Muñoz Value: EST-004 · Diego Muñoz
+							321 texto EST-004 · Diego Muñoz Description: EST-004 · Diego Muñoz
+						322 celda de cuadrícula de datos 5,9 Value: 5,9
+							323 texto 5,9 Description: 5,9
+					324 elemento de datos (selectable) GradeRow { Enrollment = EnrollmentItem { Id = c65bb21e-11f7-44f8-a240-31f1ae99a398, StudentId = 0a527b44-3347-4214-8754-079c278f9314, Student = EST-005 · Elena Vargas, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-005 · Elena Vargas, Value = 6,6 }
+						325 celda de cuadrícula de datos EST-005 · Elena Vargas Value: EST-005 · Elena Vargas
+							326 texto EST-005 · Elena Vargas Description: EST-005 · Elena Vargas
+						327 celda de cuadrícula de datos 6,6 Value: 6,6
+							328 texto 6,6 Description: 6,6
+					329 elemento de datos (selectable) GradeRow { Enrollment = EnrollmentItem { Id = 7483f5d1-c135-4ee5-8118-2aa995b08d76, StudentId = c88253b5-1367-4b2b-a024-5f894f943f9d, Student = EST-006 · Felipe Contreras, Grades = Codice.Application.GradeItem[], Attendance = Codice.Application.AttendanceItem[] }, Student = EST-006 · Felipe Contreras, Value = 4,8 }
+						330 celda de cuadrícula de datos EST-006 · Felipe Contreras Value: EST-006 · Felipe Contreras
+							331 texto EST-006 · Felipe Contreras Description: EST-006 · Felipe Contreras
+						332 celda de cuadrícula de datos 4,8 Value: 4,8
+							333 texto 4,8 Description: 4,8
+				248 texto Pendiente significa que todavía no se ha registrado una nota.
+				249 texto Registrar o corregir
+				250 texto Estudiante *
+				251 cuadro combinado
+				252 texto Nota * · 1,0 a 7,0
+				253 editar (settable, string) Value: 5,5
+				254 texto Una cifra decimal. Ejemplo: 5,4.
+				255 botón Registrar nota
+					256 texto Registrar nota
+				257 botón Corregir nota
+					258 texto Corregir nota
+
+Document text: ```
+5,5
+```

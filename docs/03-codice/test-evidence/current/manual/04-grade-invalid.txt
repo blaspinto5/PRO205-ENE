@@ -1,0 +1,70 @@
+Window: "Códice · Gestión académica", App: Codice.Desktop.exe.
+	0 ventana Códice · Gestión académica Secondary Actions: Raise
+		1 barra de título (settable, string) Value: Códice · Gestión académica
+			2 barra de menús Sistema ID: MenuBar
+				3 elemento de menú Sistema
+			4 botón Minimizar
+			5 botón Maximizar
+			6 botón Cerrar
+		7 texto Códice
+		8 texto GESTIÓN ACADÉMICA
+		9 vista de lista
+			10 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				11 botón Inicio
+					12 texto Inicio
+			13 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				14 botón Estudiantes
+					15 texto Estudiantes
+			16 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				17 botón Asignaturas
+					18 texto Asignaturas
+			19 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				20 botón Cursos
+					21 texto Cursos
+			22 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				23 botón Calificaciones
+					24 texto Calificaciones
+			25 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				26 botón Asistencia
+					27 texto Asistencia
+			28 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				29 botón Informes
+					30 texto Informes
+		31 texto Tu información, organizada.
+		32 texto Datos locales
+		33 texto Calificaciones
+		34 texto Registra una nota por evaluación y estudiante. Las correcciones se realizan de forma explícita.
+		303 texto La nota debe estar entre 1,0 y 7,0.
+		35 botón Actualizar
+			36 texto Actualizar
+		232 personalizado
+			233 panel
+				234 texto Curso *
+				235 cuadro combinado
+				236 texto Evaluación *
+				237 cuadro combinado
+				238 texto Notas de la evaluación
+				239 cuadrícula de datos
+					240 encabezado ID: PART_ColumnHeadersPresenter
+						241 elemento de encabezado Estudiante
+							242 texto Estudiante
+							243 miniatura ID: PART_RightHeaderGripper
+						244 elemento de encabezado Nota
+							245 texto Nota
+							246 miniatura ID: PART_LeftHeaderGripper
+							247 miniatura ID: PART_RightHeaderGripper
+				248 texto Pendiente significa que todavía no se ha registrado una nota.
+				249 texto Registrar o corregir
+				250 texto Estudiante *
+				251 cuadro combinado
+				252 texto Nota * · 1,0 a 7,0
+				253 editar (settable, string) Value: 8,0
+				254 texto Una cifra decimal. Ejemplo: 5,4.
+				255 botón Registrar nota
+					256 texto Registrar nota
+				257 botón Corregir nota
+					258 texto Corregir nota
+
+Document text: ```
+8,0
+```

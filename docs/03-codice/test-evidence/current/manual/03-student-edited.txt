@@ -1,0 +1,123 @@
+Window: "Códice · Gestión académica", App: Codice.Desktop.exe.
+	0 ventana Códice · Gestión académica Secondary Actions: Raise
+		1 barra de título (settable, string) Value: Códice · Gestión académica
+			2 barra de menús Sistema ID: MenuBar
+				3 elemento de menú Sistema
+			4 botón Minimizar
+			5 botón Maximizar
+			6 botón Cerrar
+		7 texto Códice
+		8 texto GESTIÓN ACADÉMICA
+		9 vista de lista
+			10 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				11 botón Inicio
+					12 texto Inicio
+			13 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				14 botón Estudiantes
+					15 texto Estudiantes
+			16 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				17 botón Asignaturas
+					18 texto Asignaturas
+			19 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				20 botón Cursos
+					21 texto Cursos
+			22 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				23 botón Calificaciones
+					24 texto Calificaciones
+			25 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				26 botón Asistencia
+					27 texto Asistencia
+			28 elemento de datos Codice.Desktop.ViewModels.NavigationItem
+				29 botón Informes
+					30 texto Informes
+		31 texto Tu información, organizada.
+		32 texto Datos locales
+		33 texto Estudiantes
+		34 texto Registra estudiantes y actualiza sus nombres conservando su historia académica.
+		157 texto Estudiante guardado correctamente.
+		35 botón Actualizar
+			36 texto Actualizar
+		84 personalizado
+			85 panel
+				86 texto Listado de estudiantes
+				87 texto Buscar por código o nombre
+				88 editar (settable, string) Buscar estudiante
+				89 cuadrícula de datos
+					90 encabezado ID: PART_ColumnHeadersPresenter
+						91 elemento de encabezado Código
+							92 texto Código
+							93 miniatura ID: PART_RightHeaderGripper
+						94 elemento de encabezado Nombres
+							95 texto Nombres
+							96 miniatura ID: PART_LeftHeaderGripper
+							97 miniatura ID: PART_RightHeaderGripper
+						98 elemento de encabezado Apellidos
+							99 texto Apellidos
+							100 miniatura ID: PART_LeftHeaderGripper
+							101 miniatura ID: PART_RightHeaderGripper
+					158 elemento de datos (selectable) StudentItem { Id = 169ff330-a1d7-4f52-bdc8-cc6f20989c7a, Code = EST-001, FirstName = Ana, LastName = Pérez, Display = EST-001 · Ana Pérez }
+						159 celda de cuadrícula de datos EST-001 Value: EST-001
+							207 texto EST-001 Description: EST-001
+						161 celda de cuadrícula de datos Ana Value: Ana
+							208 texto Ana Description: Ana
+						163 celda de cuadrícula de datos Pérez Value: Pérez
+							209 texto Pérez Description: Pérez
+					165 elemento de datos (selectable) StudentItem { Id = 99bc2da4-7ab9-420b-b9e6-d0815820b2b9, Code = EST-002, FirstName = Benjamín, LastName = Soto, Display = EST-002 · Benjamín Soto }
+						166 celda de cuadrícula de datos EST-002 Value: EST-002
+							210 texto EST-002 Description: EST-002
+						168 celda de cuadrícula de datos Benjamín Value: Benjamín
+							211 texto Benjamín Description: Benjamín
+						170 celda de cuadrícula de datos Soto Value: Soto
+							212 texto Soto Description: Soto
+					172 elemento de datos (selectable) StudentItem { Id = f6cfc272-4d40-43e4-9b44-65ffdfcd635a, Code = EST-003, FirstName = Camila, LastName = Rojas, Display = EST-003 · Camila Rojas }
+						173 celda de cuadrícula de datos EST-003 Value: EST-003
+							213 texto EST-003 Description: EST-003
+						175 celda de cuadrícula de datos Camila Value: Camila
+							214 texto Camila Description: Camila
+						177 celda de cuadrícula de datos Rojas Value: Rojas
+							215 texto Rojas Description: Rojas
+					179 elemento de datos (selectable) StudentItem { Id = 9084916c-61d2-4b1d-b36e-09315bf22a5c, Code = EST-004, FirstName = Diego, LastName = Muñoz, Display = EST-004 · Diego Muñoz }
+						180 celda de cuadrícula de datos EST-004 Value: EST-004
+							216 texto EST-004 Description: EST-004
+						182 celda de cuadrícula de datos Diego Value: Diego
+							217 texto Diego Description: Diego
+						184 celda de cuadrícula de datos Muñoz Value: Muñoz
+							218 texto Muñoz Description: Muñoz
+					186 elemento de datos (selectable) StudentItem { Id = 0a527b44-3347-4214-8754-079c278f9314, Code = EST-005, FirstName = Elena, LastName = Vargas, Display = EST-005 · Elena Vargas }
+						187 celda de cuadrícula de datos EST-005 Value: EST-005
+							219 texto EST-005 Description: EST-005
+						189 celda de cuadrícula de datos Elena Value: Elena
+							220 texto Elena Description: Elena
+						191 celda de cuadrícula de datos Vargas Value: Vargas
+							221 texto Vargas Description: Vargas
+					193 elemento de datos (selectable) StudentItem { Id = c88253b5-1367-4b2b-a024-5f894f943f9d, Code = EST-006, FirstName = Felipe, LastName = Contreras, Display = EST-006 · Felipe Contreras }
+						194 celda de cuadrícula de datos EST-006 Value: EST-006
+							222 texto EST-006 Description: EST-006
+						196 celda de cuadrícula de datos Felipe Value: Felipe
+							223 texto Felipe Description: Felipe
+						198 celda de cuadrícula de datos Contreras Value: Contreras
+							224 texto Contreras Description: Contreras
+					225 elemento de datos (selectable) StudentItem { Id = 4ec61369-617b-4559-b762-f49df753bf7e, Code = QA-008, FirstName = Prueba editada, LastName = Aceptación, Display = QA-008 · Prueba editada Aceptación }
+						226 celda de cuadrícula de datos QA-008 Value: QA-008
+							227 texto QA-008 Description: QA-008
+						228 celda de cuadrícula de datos Prueba editada Value: Prueba editada
+							229 texto Prueba editada Description: Prueba editada
+						230 celda de cuadrícula de datos Aceptación Value: Aceptación
+							231 texto Aceptación Description: Aceptación
+				144 texto Selecciona una fila para editar. Usa Nuevo para registrar otra ficha.
+				145 texto Ficha del estudiante
+				146 texto Código *
+				147 editar (disabled, settable, string) Código de estudiante Value: QA-008
+				148 texto Nombres *
+				149 editar (settable, string) Nombres Value: Prueba editada
+				150 texto Apellidos *
+				151 editar (settable, string) Apellidos Value: Aceptación
+				152 texto * Obligatorio. El código no cambia al editar.
+				153 botón Guardar estudiante
+					154 texto Guardar estudiante
+				155 botón Nuevo
+					156 texto Nuevo
+
+Document text: ```
+Aceptación
+```

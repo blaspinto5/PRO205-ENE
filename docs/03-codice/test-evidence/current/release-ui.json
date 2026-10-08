@@ -1,0 +1,64 @@
+﻿{
+    "VerifiedAtUtc":  "2026-10-08T18:28:36.8584066+00:00",
+    "Release":  "Codice-win-x64-20261006-191506-2a2548a4",
+    "ExecutableSha256":  "E94EC2897F0CC2762D5FE20C4E9FF4AFDA57FC30CDAD1F2E0F2AAE8B3D3E39C5",
+    "DesktopAssemblySha256":  "261C0DD3D5C0C9AD29924CB630CEAF28C2F4979149C276780C8E0952EFF47ADB",
+    "PackageManifestSha256":  "59CECE916999064BD7D9818D6BDB0A3BDC4DF4F33BBE3B38C7978095C59CF55C",
+    "ExitCode":  0,
+    "FreshPreviewCount":  12,
+    "BindingErrorCount":  0,
+    "ManualInteractionVerified":  false,
+    "HumanVisualReviewVerified":  false,
+    "CleanMachineVerified":  false,
+    "Scope":  "Automatic WPF rendering of the delivered executable in an isolated copy; manual and human visual acceptance are separate.",
+    "Images":  [
+                   {
+                       "Name":  "01-Home.png",
+                       "Sha256":  "9E40239AC6F459D533D33B7248371C8ED33182819482A13C9F95F2AB9A2B1D86"
+                   },
+                   {
+                       "Name":  "02-Students.png",
+                       "Sha256":  "C088D8B4077160256287E293E6B8FEC53486A9FC61CE6BB3B99B204F5A5894F8"
+                   },
+                   {
+                       "Name":  "03-Subjects.png",
+                       "Sha256":  "1A2FB20FF1F8AB68A7AC01FAFB4CE0CB74A569A489D7879BCEE315F15B554DC3"
+                   },
+                   {
+                       "Name":  "04-Courses.png",
+                       "Sha256":  "E26E99C6ED882557A932932A73B34BDEBB586126EE98C65A90F166FD2F007A76"
+                   },
+                   {
+                       "Name":  "05-Grades.png",
+                       "Sha256":  "630177A454917788456F7E6CFE87C91826FDA71FD003EEAFA9A8B20A0ED29C56"
+                   },
+                   {
+                       "Name":  "06-Attendance.png",
+                       "Sha256":  "0A02F0EF1F24CC1E7AAE1BDE8692EADCCC2A97C59648225F2A452446646ADAD7"
+                   },
+                   {
+                       "Name":  "07-Reports.png",
+                       "Sha256":  "CB9AB6DECE4A5D2373ABFB7E464365E0FB732B1DFA8876868232E9CDBD032162"
+                   },
+                   {
+                       "Name":  "08-GradeValidation.png",
+                       "Sha256":  "F5856E5C1C9948990F6615E1C8721849EFC2AA66F28175ACFC9C07BCACFB09CE"
+                   },
+                   {
+                       "Name":  "09-MinimumWindow.png",
+                       "Sha256":  "AB817E9E963CC1EDE927D47DE26D4FF68F60816A7F906DDAD73C4232812CFB03"
+                   },
+                   {
+                       "Name":  "10-CourseAssessments.png",
+                       "Sha256":  "B2C3338EBB3D5BCEEC3C8C4D7502D46ECEED6AB0BDF5A14505012B9F87C6A421"
+                   },
+                   {
+                       "Name":  "11-CourseSessions.png",
+                       "Sha256":  "BEE6E06B16C688F0DDAF53020C9A0F7648120B46B2F4FB594BF8893C34FCDAD4"
+                   },
+                   {
+                       "Name":  "12-StudentReport.png",
+                       "Sha256":  "491D2BF697987D3878EA21C16299512E915339228D019A845A874EFD0DF2F1E7"
+                   }
+               ]
+}
