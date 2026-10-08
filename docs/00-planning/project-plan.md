@@ -62,6 +62,8 @@ Los requisitos tendrán ID, nombre, tipo, descripción y prioridad. La matriz de
 
 ## Estrategia Git y evidencias
 
+Actualización del 8 de octubre de 2026: el repositorio local tenía cero commits al auditarlo. Se registró una base real y se incorporarán las correcciones como cambios posteriores, sin inventar historia de fases anteriores. Destino público autorizado: `https://github.com/blaspinto5/PRO205-ENE`. Autor técnico de los cambios automatizados: Codex (`codex@local`); no se atribuyen a una dirección personal no proporcionada.
+
 Repositorio local con rama inicial `main`. Registrar cambios pequeños y coherentes mediante commits descriptivos: `docs: add Huellitas analysis`, `feat: add student registration`, `test: add grade validation tests`. Revisar el contenido antes de cada commit. Evitar binarios de compilación, bases locales y datos personales o credenciales.
 
 Cada revisión registrará criterio, entregable, ubicación de evidencia y brecha pendiente. Las capturas complementan el código y los documentos; no los sustituyen. Mantener UML, requisitos y código consistentes cuando se implementen. La publicación o configuración de un remoto se hará cuando se determine el repositorio de destino.

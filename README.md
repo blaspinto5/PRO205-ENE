@@ -4,6 +4,8 @@
 
 ## Entrega
 
+Repositorio público: https://github.com/blaspinto5/PRO205-ENE. El historial comienza el 8 de octubre con el estado auditado; no reconstruye commits de fases pasadas. Los ZIP de `entrega/` se distribuyen por separado y no se guardan en Git.
+
 - [Aplicación portable Windows x64](entrega/Codice-win-x64.zip): extraer la carpeta completa y abrir Codice.Desktop.exe. Incluye .NET, SQLite nativo y Manual.pdf; crea su base en datos/.
 - [Fuentes, documentos y evidencias](entrega/PRO205-fuentes-y-evidencias.zip): código, tests, configuración, enunciados, UML, defensas, PDF y resultados. SDK y paquetes de desarrollo se restauran por separado.
 - [Carpeta de aplicación](entrega/Codice-win-x64-20261006-191506-2a2548a4/): edición descomprimida actual.
@@ -34,6 +36,7 @@ Desde PowerShell en la raíz:
 - ./tools/capture-ui.ps1: renderizar pantallas reales con datos ficticios en una copia desechable; requiere Release compilado.
 - ./tools/publish-portable.ps1 -IncludeManual: generar otra carpeta autocontenida sin bases de trabajo.
 - ./tools/verify-portable.ps1: comprobar el paquete en copia aislada y registrar resultados locales.
+- ./tools/verify-release-ui.ps1: renderizar el ejecutable entregado, exigir doce imágenes nuevas y cero errores de binding; no certifica interacción manual.
 - ./tools/package-delivery.ps1: crear ZIP portable y ZIP separado de fuentes/evidencias.
 - ./tools/add-migration.ps1 -Name NombreDelCambio: generar una migración revisable; no aplica cambios a datos de usuario.
 

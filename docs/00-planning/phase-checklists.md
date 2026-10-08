@@ -84,7 +84,8 @@ Revisión de cierre: **5 de octubre de 2026**.
 - [x] UML, requisitos, pruebas y código consistentes; trazabilidad completa.
 - [x] `dotnet build` correcto y `dotnet test` sin fallos.
 - [x] Ejecutable, manual, capturas y evidencia disponibles; README actualizado.
-- [x] Once criterios revisados con evidencia y sin brechas de Sobresaliente.
+- [x] Once criterios contrastados con la evidencia disponible; brechas registradas en la auditoría.
+- [ ] Evaluación docente y demostración personal realizadas; no se garantiza Sobresaliente por la existencia de documentos.
 
 **Cierre:** fase 6 completada internamente el 6 de octubre de 2026. Doce funciones, 55 pruebas aprobadas, renders WPF, manual de dos páginas y paquete portable verificados. Otro equipo limpio no verificado; límites en phase-6-review.md.
 
@@ -96,6 +97,8 @@ Revisión de cierre: **5 de octubre de 2026**.
 - [x] Registrar brechas y corregirlas; evitar afirmar cumplimiento solo por disponer de documentos.
 
 ## Registro de revisiones posteriores
+
+Actualización del 8 de octubre de 2026: historial Git real iniciado y destino público autorizado (`blaspinto5/PRO205-ENE`); 55 casos revalidados. Corregida la afirmación incondicional de revisión visual. Estado de aceptación vigente en `docs/03-codice/portable/portable-architecture.md`; otro Windows limpio, restauración manual y evaluación docente pendientes. La plantilla docente será incorporada cuando el estudiante la consiga.
 
 | Fecha | Fase/criterio | Entregable y ubicación de evidencia | Brecha o corrección | Resultado |
 |---|---|---|---|---|

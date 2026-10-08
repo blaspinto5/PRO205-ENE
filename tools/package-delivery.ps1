@@ -19,7 +19,7 @@ foreach ($directory in @('src', 'tests', 'docs', 'tools', 'output')) {
         Copy-Item -LiteralPath $file.FullName -Destination $destination
     }
 }
-foreach ($file in @('README.md', 'Codice.sln', 'Directory.Build.props', 'global.json', '.editorconfig', '.gitignore', '.config/dotnet-tools.json')) {
+foreach ($file in @('README.md', 'Codice.sln', 'Directory.Build.props', 'global.json', '.editorconfig', '.gitignore', '.gitattributes', '.config/dotnet-tools.json')) {
     $destination = Join-Path $sourceStage $file
     New-Item -ItemType Directory -Path (Split-Path $destination -Parent) -Force | Out-Null
     Copy-Item -LiteralPath (Join-Path $workspaceRoot $file) -Destination $destination

@@ -95,3 +95,5 @@ Inicio de fase 4: catálogo y trazabilidad preliminares en docs/03-codice/requir
 Actualización posterior: fase 4 cerrada; evidencia en docs/03-codice/phase-4-review.md. Las notas anteriores de fase abierta son históricas.
 
 Estado final: ocho criterios académicos con evidencia y tres transversales con registro de proceso. Ver docs/03-codice/phase-6-review.md. No se atribuye calificación oficial.
+
+Revisión del 8 de octubre de 2026: 55 casos nuevamente aprobados; Git iniciado con historia real y remoto público autorizado. El checklist ya no declara ausencia de brechas de Sobresaliente. Aceptación en otro Windows limpio, comprobación personal/docente y formato final de la plantilla continúan pendientes. Los renders automáticos del paquete tienen hashes propios en `test-evidence/current/release-ui.json` y no se presentan como interacción manual.

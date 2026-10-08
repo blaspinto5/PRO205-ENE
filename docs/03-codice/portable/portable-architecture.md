@@ -43,7 +43,7 @@ Orden obligatorio del inicio:
 5. Aplicar migraciones versionadas de EF Core antes de habilitar formularios. No borrar ni recrear bases existentes para actualizar. No mezclar EnsureCreated con migraciones para la misma base.
 6. Configurar reloj/zona académica, servicios y repositorios; abrir la interfaz solo después del inicio correcto. Disponer conexiones/contextos al cerrar.
 
-El arranque ya implementa estos pasos. Las comprobaciones de permisos y de interfaz en otro equipo continúan pendientes.
+El arranque ya implementa estos pasos. Permisos, bloqueo, traslado y runtime local se verificaron nuevamente el 8 de octubre; la interfaz en otro equipo continúa pendiente.
 
 ## Datos, integridad y traslado
 
@@ -59,23 +59,24 @@ Cada publicación crea una carpeta nueva; nunca publica encima de la carpeta usa
 
 `./tools/publish-portable.ps1` genera una edición nueva del Desktop ya implementado. `-IncludeManual` exige el manual final y lo incorpora. Comprueba salida ejecutable y ausencia de bases empaquetadas; genera manifiesto y hashes. No comprime automáticamente ni declara aprobada una aplicación sin recorrerla. Si falla publicación, su carpeta parcial no es distribuible.
 
-Pruebas de aceptación antes del cierre:
+Estado de aceptación al 8 de octubre de 2026. Las verificaciones automáticas y la interacción manual se registran por separado.
 
-- [x] Compilación, unitarias y pruebas reales de SQLite correctas.
-- [x] Ejecutable y bibliotecas nativas de SQLite incluidos y cargados.
-- [ ] Inicio en Windows x64 compatible sin .NET instalado, registrando versión del SO.
-- [x] Ejecutar desde directorio de trabajo distinto; datos permanecen junto al ejecutable. Acceso directo manual pendiente.
-- [ ] Ruta con espacios y acentos; registro, edición e informes correctos.
-- [ ] Cerrar/reabrir conserva IDs, relaciones, notas y asistencia.
-- [ ] Mover carpeta cerrada a otra ubicación conserva registros.
-- [ ] Falta de escritura y segunda instancia generan mensajes claros sin corrupción.
-- [ ] Migración, respaldo y restauración comprobados con base ficticia representativa.
-- [ ] Paquete limpio, sin SDK, binarios de pruebas, bases usadas ni rutas personales.
-- [ ] Manual de máximo dos páginas, evidencia y trazabilidad completos para 2.19.
+| Comprobación | Estado y evidencia |
+|---|---|
+| Compilación y pruebas | 55 casos aprobados; cero errores/advertencias; `test-evidence/current/*-tests.trx`. |
+| Runtime autocontenido, ruta con espacios/acentos y otro directorio de trabajo | Verificado en este equipo; `test-evidence/current/portable-startup.json`. |
+| Arranque tras mover carpeta cerrada, bloqueo y falta de escritura | Verificados automáticamente; salida 0/3/3 respectivamente. No certifica revisión manual de todos los mensajes. |
+| Identidad, relaciones y correcciones tras reabrir; traslado de registros | Pruebas SQLite `SaveAndReopen`, `CorrectRecords` y `CopyClosedData`; 8 casos de integración. |
+| Paquete sin bases y hashes | Comprobados por `tools/verify-portable.ps1`; no contiene SDK ni proyectos de pruebas. |
+| Manual y trazabilidad | Manual de dos páginas y documentos revisados en auditoría. |
+| Render del ejecutable entregado | `tools/verify-release-ui.ps1`: 12 imágenes nuevas y cero errores de binding; identidad por SHA-256 en `release-ui.json`. |
+| Interacción manual en este equipo | Alcance y resultados en `test-evidence/current/manual-acceptance.md`; no confundir con pruebas de comandos o renders. |
+| Otro Windows limpio sin .NET y acceso directo | **Pendiente**; ejecutar `clean-windows-acceptance.md` y guardar versión de SO/evidencia. |
+| Restauración manual y actualización de una base entre versiones | **Pendiente**; una migración inicial y el traslado de una base no prueban una actualización futura. |
 
 Fuentes técnicas: [publicación .NET](https://learn.microsoft.com/en-us/dotnet/core/deploying/), [RID](https://learn.microsoft.com/en-us/dotnet/core/rid-catalog), [autocontención explícita](https://learn.microsoft.com/en-us/dotnet/core/compatibility/sdk/8.0/runtimespecific-app-default) y [proveedor SQLite](https://learn.microsoft.com/en-us/ef/core/providers/sqlite/).
 
-## Verificación de esta preparación
+## Registro histórico de preparación (6 de octubre; no describe el estado actual)
 El 6 de octubre se comprobó sintaxis de las tres herramientas PowerShell, XML del perfil win-x64 autocontenido, selección del SDK 10.0.401 y rechazo claro de publicación mientras falte Desktop. La solución actual recompiló con cero errores y advertencias. No se ejecutó ni publicó una aplicación portable; las pruebas de aceptación anteriores permanecen pendientes.
 
 Actualización de implementación: 49 casos aprobados y publicación autocontenida con arranque comprobado. Recuperación/traslado se probaron mediante integración; formularios y aceptación en otro equipo aún pendientes. Ver phase-6-foundation.md.
