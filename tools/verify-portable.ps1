@@ -79,7 +79,10 @@ try {
         IncludesManual = $true
         PackageChecksumsVerified = $true
         CleanMachineVerified = $false
-        VisualInterfaceVerified = $true
+        VisualInterfaceVerified = $false
+        ManualInteractionVerified = $false
+        VerificationScope = 'Startup, runtime, locking, permissions, relocation and hashes only; interface review is separate.'
+        PackageManifestSha256 = (Get-FileHash -LiteralPath (Join-Path $release 'SHA256SUMS.txt') -Algorithm SHA256).Hash
         HostTraceEvidence = $trace
     }
     $evidence | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath (Join-Path $workspaceRoot 'docs/03-codice/test-evidence/current/portable-startup.json') -Encoding utf8
