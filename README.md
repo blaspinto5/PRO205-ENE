@@ -6,9 +6,9 @@
 
 Repositorio público: https://github.com/blaspinto5/PRO205-ENE. El historial comienza el 8 de octubre con el estado auditado; no reconstruye commits de fases pasadas. Los ZIP de `entrega/` se distribuyen por separado y no se guardan en Git.
 
-- [Aplicación portable Windows x64](entrega/Codice-win-x64.zip): extraer la carpeta completa y abrir Codice.Desktop.exe. Incluye .NET, SQLite nativo y Manual.pdf; crea su base en datos/.
-- [Fuentes, documentos y evidencias](entrega/PRO205-fuentes-y-evidencias.zip): código, tests, configuración, enunciados, UML, defensas, PDF y resultados. SDK y paquetes de desarrollo se restauran por separado.
-- [Carpeta de aplicación](entrega/Codice-win-x64-20261006-191506-2a2548a4/): edición descomprimida actual.
+- [Aplicación portable Windows x64](https://github.com/blaspinto5/PRO205-ENE/releases/download/v2026.10.08/Codice-win-x64.zip): extraer la carpeta completa y abrir Codice.Desktop.exe. Incluye .NET, SQLite nativo y Manual.pdf; crea su base en datos/.
+- [Fuentes, documentos y evidencias](https://github.com/blaspinto5/PRO205-ENE/releases/download/v2026.10.08/PRO205-fuentes-y-evidencias.zip): código, tests, configuración, enunciados, UML, defensas, PDF y resultados. SDK y paquetes de desarrollo se restauran por separado.
+- [Descargas y SHA-256](https://github.com/blaspinto5/PRO205-ENE/releases/tag/v2026.10.08). La carpeta descomprimida local está en `entrega/Codice-win-x64-20261006-191506-2a2548a4/`.
 - [Cierre de fase 6](docs/03-codice/phase-6-review.md) y [manual editable](docs/03-codice/technical-manual.md).
 
 La aplicación permite estudiantes/asignaturas, cursos/matrículas/evaluaciones/sesiones, registro y corrección de notas/asistencia e informes por estudiante/curso. Sin usuarios ni vista administrativa, conforme al alcance acordado.
