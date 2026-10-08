@@ -1,0 +1,21 @@
+CÓDICE — EDICIÓN PORTABLE PARA WINDOWS DE 64 BITS
+
+1. Extraiga la carpeta completa en una ubicación con permiso de escritura.
+2. Abra Codice.Desktop.exe. No necesita instalar .NET por separado.
+3. Los datos se almacenan en datos/codice.db junto a la aplicación.
+4. Para trasladar sus registros, cierre la aplicación y copie toda la carpeta.
+5. Para respaldar, cierre la aplicación y copie toda la carpeta datos a una
+   ubicación distinta. Conserve también archivos auxiliares de SQLite si existen.
+6. Para actualizar, conserve el paquete anterior y su respaldo. Copie datos a la
+   nueva edición con ambas aplicaciones cerradas. La compatibilidad del esquema
+   debe haberse verificado para esa edición; no abra una base nueva con una
+   edición antigua sin una verificación específica.
+
+Utilice datos ficticios para la demostración académica. No ejecute dos instancias
+sobre la misma base ni utilice una carpeta compartida por red para esta edición.
+Si no hay permiso de escritura, mueva toda la carpeta a una ubicación permitida.
+No elimine bibliotecas ni archivos del runtime incluidos con el ejecutable.
+
+Consulte Manual.pdf en la entrega final para pantallas y flujo de uso.
+La portabilidad se limita a Windows de 64 bits compatible con esta versión de
+.NET; no implica compatibilidad con cualquier versión antigua de Windows.

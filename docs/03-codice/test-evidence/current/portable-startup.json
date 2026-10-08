@@ -1,0 +1,22 @@
+{
+  "VerifiedAtUtc": "2026-10-06T19:16:41.9663329+00:00",
+  "Release": "Codice-win-x64-20261006-191506-2a2548a4",
+  "StartupExitCode": 0,
+  "RuntimeLoadedFromPortableFolder": true,
+  "SharedRuntimeEnvironmentRemoved": true,
+  "PathIncludesSpacesAndAccents": true,
+  "DifferentWorkingDirectory": true,
+  "DatabaseCreatedBesideExecutable": true,
+  "SecondInstanceExitCode": 3,
+  "WriteDeniedExitCode": 3,
+  "ClosedFolderMovedExitCode": 0,
+  "OriginalPackageDatabaseCount": 0,
+  "IncludesManual": true,
+  "PackageChecksumsVerified": true,
+  "CleanMachineVerified": false,
+  "VisualInterfaceVerified": true,
+  "HostTraceEvidence": [
+    "Checking if CoreCLR path exists=[C:\\Users\\blasp\\Desktop\\ENE_PROYECT\\.tools\\Verificación portable 05603fdeee754e36907dd7af593b27e1\\coreclr.dll]",
+    "Executing as a self-contained app as per config file [C:\\Users\\blasp\\Desktop\\ENE_PROYECT\\.tools\\Verificación portable 05603fdeee754e36907dd7af593b27e1\\Codice.Desktop.runtimeconfig.json]"
+  ]
+}

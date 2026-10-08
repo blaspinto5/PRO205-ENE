@@ -1,0 +1,20 @@
+<UserControl x:Class="Codice.Desktop.Views.SubjectsView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer VerticalScrollBarVisibility="Auto"><Grid Style="{StaticResource ScreenRoot}">
+        <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="20" /><ColumnDefinition Width="310" /></Grid.ColumnDefinitions>
+        <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+        <Border Style="{StaticResource Card}"><StackPanel><TextBlock Text="Catálogo de asignaturas" Style="{StaticResource SectionTitle}" />
+            <DataGrid ItemsSource="{Binding Items}" SelectedItem="{Binding Selected}" Height="355"><DataGrid.Columns>
+                <DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Código" Binding="{Binding Code}" Width="120" /><DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Asignatura" Binding="{Binding Name}" Width="*" />
+            </DataGrid.Columns></DataGrid>
+            <TextBlock Text="Editar el nombre conserva los cursos y registros relacionados." Style="{StaticResource MutedText}" Margin="0,14,0,0" />
+        </StackPanel></Border>
+        <Border Grid.Column="2" Style="{StaticResource Card}" VerticalAlignment="Top"><StackPanel>
+            <TextBlock Text="Ficha de la asignatura" Style="{StaticResource SectionTitle}" />
+            <TextBlock Text="Código *" Style="{StaticResource FieldLabel}" /><TextBox Text="{Binding Code, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding IsNew}" Margin="{StaticResource FieldGap}" AutomationProperties.Name="Código de asignatura" />
+            <TextBlock Text="Nombre *" Style="{StaticResource FieldLabel}" /><TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Margin="{StaticResource FieldGap}" AutomationProperties.Name="Nombre de asignatura" />
+            <TextBlock Text="* Obligatorio. Usa un código único y estable." Style="{StaticResource MutedText}" Margin="0,0,0,20" />
+            <Button Content="Guardar asignatura" Command="{Binding SaveCommand}" Margin="0,0,0,10" /><Button Content="Nuevo" Command="{Binding NewCommand}" Style="{StaticResource SecondaryButton}" />
+        </StackPanel></Border>
+        
+    </Grid></ScrollViewer>
+</UserControl>

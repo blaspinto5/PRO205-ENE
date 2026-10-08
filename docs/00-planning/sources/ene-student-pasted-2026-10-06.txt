@@ -1,0 +1,428 @@
+
+   INSTRUCCIONES GENERALES  
+
+   ¿Qué significa que esta asignatura tenga una actividad ENE? 
+
+ 
+
+Durante esta asignatura, deberás desarrollar como última evaluación parcial, la Evaluación Nacional de Especialidad (ENE), una actividad estandarizada elaborada y validada por especialistas que define la institución, con el propósito de estimar cuanto has avanzado en el logro de ciertos aprendizajes y con ello el desarrollo de la competencia de la asignatura que forma parte del perfil de egreso de tu carrera. 
+En esta asignatura la ENE corresponde a una evaluación de tipo Habilidades, lo que implica la realización (ejecución y/o entrega) práctica o aplicada de una o más tareas o subtareas, relacionadas con situaciones reales o simuladas, y que pueden desarrollarse de forma sincrónica (procedimiento en vivo) o asincrónica (por entrega de un producto). 
+ 
+
+¿Qué evaluará mi docente cuando desarrolle la actividad ENE? 
+
+ 
+
+Observación directa de uno o más procedimientos (si la tarea es sincrónica) 
+Revisión de uno o más productos a entregar (si es asincrónica) 
+ 
+
+En esta evaluación se considerarán dos aspectos a evaluar:  
+
+ 
+
+1. Competencia de especialidad de una asignatura tu carrera. 
+
+Esto incluye conocimientos y habilidades específicas del área, relacionados con ciertos aprendizajes esperados y criterios definidos en el programa de estudio. 
+
+2. Competencias Sello de tu carrera, que incluyen las siguientes conductas, actitudes y valores:  
+
+- Innovación y emprendimiento: Ejecutar o entregar soluciones/respuestas creativas, aplicables y sostenibles. 
+
+- Sostenibilidad: Considerar el uso consciente de recursos y su impacto medioambiental y social/comunitario. 
+
+- Habilidades digitales: Usar correctamente herramientas tecnológicas genéricas (como IA, documentos, planillas, presentaciones en línea y herramientas virtuales propias del área de estudio. 
+
+- Habilidades personales y sociales: Demostrar responsabilidad, ética, autonomía, comunicación y colaboración. 
+
+ 
+
+ 
+
+¿Qué acciones debo realizar para desarrollar la actividad ENE? 
+
+ 
+
+Revisa en el aula virtual de tu ENE la(s) tarea(s)/subtarea(s) que te corresponden desarrollar. 
+Consulta la pauta de evaluación (rúbrica), disponible también en el aula virtual, para saber con claridad qué se espera de ti en cada aspecto que revisará tu docente. 
+Revisa y sigue atentamente las instrucciones específicas que recibirás de tu docente, especialmente sobre: 
+El o los tipos de tarea que realizarás (directa y/o indirecta). 
+Si la(s) tarea(s) será(n) individual o grupal. 
+La fecha, horario y espacios de ejecución o entrega. 
+Aspectos concretos del sello AIEP que deberás evidenciar. 
+ 
+
+“Durante el desarrollo de todas tus evaluaciones y por sobre todo en la ENE, te invitamos a reflexionar no solo sobre lo que sabes hacer, sino también sobre cómo lo haces: ¿estás proponiendo soluciones innovadoras, emprendedoras s y/o sostenibles?, ¿estás considerando el impacto de tus decisiones y acciones?, ¿estás usando adecuadamente herramientas digitales?, ¿estás actuando y te estás comunicando de manera autónoma, responsable, ética y colaborativa? Estas son competencias clave que forman parte de tu sello como futuro técnico o profesional AIEP, por lo que es muy importante que las vayan desplegando y mejorando continuamente durante tu carrera. 
+
+   
+
+ 
+
+    CONTEXTO DE REFERENCIA 
+
+    
+
+Lea la siguiente información y luego desarrolle la tarea n.° 1 junto con sus subtareas. 
+
+ 
+
+ 
+
+“SISTEMA DE GESTIÓN DE ADOPCIONES PARA FUNDACIÓN HUELLITAS” 
+
+ 
+
+La Fundación Huellitas es una organización sin fines de lucro que se dedica al rescate, cuidado y adopción de perros y gatos en situación de abandono. Actualmente, gestionan la información de forma manual, lo que ha generado pérdidas de datos, desorganización y dificultad para hacer seguimiento a los procesos de adopción. 
+
+ 
+
+Han solicitado tu apoyo como desarrollador/a para iniciar el diseño conceptual de una aplicación orientada a objetos, que permita sistematizar los datos y procesos clave, tales como: registro de animales, fichas de adoptantes, historial de salud de los animales, agendamiento de entrevistas y seguimiento post-adopción. 
+
+ 
+
+El equipo de la fundación no es experto en tecnología, por lo que necesita que el sistema sea claro, eficiente y extensible en el futuro. Tu tarea inicial será modelar esta realidad utilizando un diagrama de clases, aplicando correctamente los principios de la programación orientada a objetos, como la generalización/especialización y las relaciones entre clases (asociaciones, composición, agregación), de acuerdo con los requerimientos entregados. 
+
+ 
+
+SITUACIÓN: ​HIPOTÉTICA.​                 
+
+FUENTE: ​ELABORACIÓN PROPIA.​  
+
+ 
+
+  
+
+ 
+
+    TAREA DE EJECUCIÓN  
+
+    
+
+“El desarrollo de la tarea/subtarea debe permitir observar el logro del aprendizaje y el despliegue del sello formativo, es decir, considerando una respuesta o solución innovadora, emprendedora y/o sostenible y evidenciando el despliegue de sus habilidades personales y sociales y uso pertinente de herramientas digitales generales o propias de la carrera” 
+
+ 
+
+    
+
+Tarea nro. 1  
+
+ 
+
+Como parte del equipo de desarrollo, tu misión es realizar el diseño inicial de una aplicación para la Fundación Huellitas, orientada a gestionar sus procesos de adopción de mascotas. Para ello, deberás representar el sistema utilizando diagramas de clases UML, asegurando una correcta aplicación de los principios de la programación orientada a objetos (POO). 
+
+ 
+
+La tarea se compone de dos etapas: 
+
+ 
+
+Análisis (detalle en subtarea1 más abajo) y aplicación de relaciones entre clases, incluyendo asociación, agregación, composición, generalización y especialización. 
+ 
+
+Construcción del diagrama de clases, considerando los requerimientos funcionales entregados por el caso y representando atributos, métodos y relaciones entre objetos. 
+ 
+
+Esta tarea tiene como objetivo que desarrolles la capacidad de interpretar requerimientos del usuario y traducirlos en un modelo conceptual estructurado, aplicando conocimientos técnicos propios del enfoque orientado a objetos. 
+
+ 
+
+ 
+
+Subtarea 1A  
+
+ 
+
+Análisis esperado: A partir del caso “Fundación Huellitas”, identifica las entidades principales involucradas en el sistema (por ejemplo: animales, adoptantes, voluntarios, seguimientos, etc.) y representa sus relaciones utilizando un esquema preliminar de clases. Debes aplicar correctamente al menos tres tipos de relaciones entre clases, como asociación, agregación o composición, y representar una relación jerárquica de generalización o especialización. 
+
+ 
+
+Además, redacta una justificación técnica (máximo 1 página) en la que expliques el uso de cada relación, indicando por qué fue seleccionada para representar cada vínculo del sistema. 
+
+ 
+
+Producto esperado: 
+
+ 
+
+Esquema preliminar (digital o a mano, escaneado) con al menos 5 clases y sus relaciones 
+Documento justificativo de las relaciones utilizadas (basada en el C.E. 1.8). 
+ 
+
+Subtarea 1B 
+
+ 
+
+Utilizando el análisis realizado en la subtarea 1A y los requerimientos planteados en el caso de la Fundación Huellitas, elabora un diagrama de clases UML formal que incluya al menos: 
+
+ 
+
+5 clases con atributos y métodos relevantes. 
+Relaciones entre clases con el tipo de relación especificado (asociación, agregación, composición, herencia) 
+Indicadores de visibilidad (+, –, #) 
+Nombres de clases y miembros en notación clara y consistente 
+ 
+
+El diagrama debe ser generado en una herramienta digital (ej: Lucidchart, StarUML, Draw.io) y exportado como imagen o PDF. 
+
+ 
+
+Producto esperado: 
+
+ 
+
+Diagrama de clases UML en formato digital 
+Lista breve (máx. media página) de requerimientos cubiertos por el diseño (basada en el C.E. 1.9). 
+ 
+
+Observación: el criterio de evaluación transversal (actitudinal o valórico) no se abordará de forma directa en una subtarea ya que debe ser considerado de forma indirecta en la redacción del contexto de referencia y/o en la tarea/subtareas. 
+
+ 
+
+   
+
+    CONTEXTO DE REFERENCIA  
+
+    
+
+Lea la siguiente información y luego desarrolle la tarea n.° 2 junto con sus subtareas. 
+
+ 
+
+ 
+
+“PLANIFICACIÓN DEL DISEÑO DE UN SISTEMA DE INVENTARIO PARA PYME "TECNOBOX" 
+
+ 
+
+La PyME "Tecnobox", dedicada a la venta de productos tecnológicos por internet, ha solicitado el desarrollo de un sistema de gestión de inventario para controlar entradas, salidas y stock de productos. Aunque cuentan con algunos datos iniciales, el proyecto aún se encuentra en una fase temprana y no se ha definido un diseño detallado. 
+
+Como parte del equipo de desarrollo, tu labor será analizar las etapas que implica el diseño orientado a objetos dentro del ciclo de vida del software, considerando sus componentes fundamentales, y relacionar dichas etapas con la programación orientada a objetos como parte del desarrollo de la futura solución. 
+
+Esta tarea busca que comprendas cómo se estructura un proyecto de software desde su fase de diseño conceptual hasta su implementación, utilizando el enfoque orientado a objetos como base metodológica. 
+
+SITUACIÓN: ​HIPOTÉTICA.​                 
+
+FUENTE: ​ELABORACIÓN PROPIA.​  
+
+ 
+
+ 
+
+    TAREA DE EJECUCIÓN  
+
+   “El desarrollo de la tarea/subtarea debe permitir observar el logro del aprendizaje y el despliegue del sello formativo, es decir, considerando una respuesta o solución innovadora, emprendedora y/o sostenible y evidenciando el despliegue de sus habilidades personales y sociales y uso pertinente de herramientas digitales generales o propias de la carrera” 
+
+ 
+
+ 
+
+    
+
+Tarea nro. 2  
+
+ 
+
+Como parte del equipo de desarrollo de software de la empresa "Tecnobox", tu responsabilidad en esta etapa es analizar y planificar el diseño orientado a objetos del sistema, comprendiendo cómo se integra este diseño dentro del ciclo de vida del desarrollo de software. 
+
+ 
+
+La tarea se compone de dos actividades complementarias: 
+
+Clasificar las etapas del diseño orientado a objetos, identificando su ubicación dentro del proceso general de desarrollo de software. 
+Relacionar la programación orientada a objetos con las distintas etapas del ciclo de vida de un sistema, reconociendo su aporte en la implementación y evolución del proyecto. 
+ 
+
+Ambas actividades permitirán que estructures una visión más clara y técnica sobre el papel que cumple el diseño y la programación orientada a objetos en un proyecto real. 
+
+ 
+
+Productos esperados: 
+
+ 
+
+Cuadro comparativo o esquema con etapas de diseño (subtarea 2A – C.E. 2.3) 
+Mapa conceptual o infografía que vincule programación POO con el ciclo de vida (subtarea 2B – C.E. 2.4) 
+Textos breves de explicación y fundamentación 
+ 
+
+ 
+
+ 
+
+ 
+
+Subtarea 2A 
+
+ 
+
+A partir del caso “Tecnobox”, identifica y describe las principales etapas del diseño orientado a objetos, ubicándolas dentro del proceso general de desarrollo de software (puedes utilizar modelos como cascada, incremental, espiral o Agil). Para cada etapa, señala sus objetivos, actividades principales y productos que se generan (por ejemplo: diagrama de clases, especificación de interfaces, etc.) (basada en el C.E. 2.3). 
+
+ 
+
+Producto esperado: 
+
+Cuadro comparativo o esquema gráfico con las etapas del diseño orientado a objetos y su ubicación en el ciclo de vida del software. 
+Descripción escrita de cada etapa (máx. 1 página)   
+ 
+
+Subtarea 2B 
+
+ 
+
+Analiza cómo se vincula la programación orientada a objetos con cada una de las etapas del ciclo de vida de un proyecto de software. Elabora un mapa conceptual o esquema donde se visualicen las relaciones entre conceptos como: análisis, diseño, codificación, pruebas y mantenimiento; y las prácticas de programación que se aplican en cada etapa (basada en el C.E. 2.4). 
+
+ 
+
+Producto esperado: 
+
+Mapa conceptual o infografía explicativa con relaciones claras entre programación POO y ciclo de vida. 
+Comentario escrito (máx. media página) que argumente cómo la POO contribuye a la calidad y mantenibilidad del software. 
+ 
+
+Observación: el criterio de evaluación transversal (actitudinal o valórico) no se abordará de forma directa en una subtarea ya que debe ser considerado de forma indirecta en la redacción del contexto de referencia y/o en la tarea/subtareas. 
+
+ 
+
+   
+
+ 
+
+    CONTEXTO DE REFERENCIA  
+
+    
+
+Lea la siguiente información y luego desarrolle la tarea n.° 3 junto con sus subtareas. 
+
+ 
+
+ 
+
+“DESARROLLO DE APLICACIÓN DE ESCRITORIO PARA CONTROL DE ASISTENCIA Y NOTAS EN INSTITUTO “CÓDICE”” 
+
+ 
+
+El Instituto Técnico Profesional “Códice” busca mejorar la gestión académica de sus cursos mediante una aplicación de escritorio que permita a los docentes registrar la asistencia diaria y las calificaciones de los estudiantes de manera organizada, segura y eficiente. 
+
+ 
+
+Actualmente, los registros se llevan en planillas de Excel o papel, lo que dificulta la trazabilidad, el respaldo de información y el cumplimiento de estándares de calidad educativa. Por ello, han solicitado el desarrollo de una aplicación en entorno Windows utilizando la plataforma .NET y el lenguaje C#, que contemple: 
+
+ 
+
+Registro y edición de estudiantes y asignaturas 
+
+Gestión de asistencia por fecha 
+
+Ingreso y modificación de calificaciones 
+
+Visualización de informes por estudiante y por curso 
+
+ 
+
+Como desarrollador(a) del proyecto, tu rol será levantar los requerimientos, diseñar e implementar el sistema utilizando programación orientada a objetos, construir diagramas de clases y pruebas unitarias, y entregar la documentación técnica del software desarrollado. 
+
+ 
+
+Este proyecto debe considerar buenas prácticas de diseño y codificación, e incorporar pruebas para validar que el sistema cumple con los requerimientos funcionales definidos. 
+
+ 
+
+SITUACIÓN: ​HIPOTÉTICA.​                 
+
+FUENTE: ​ELABORACIÓN PROPIA.​  
+
+ 
+
+    TAREA DE EJECUCIÓN   
+
+    
+
+Tarea nro. 3  
+
+ 
+
+Como parte del equipo de desarrollo de soluciones internas del Instituto “Códice”, se te ha encargado el diseño y construcción de una aplicación de escritorio en C# utilizando la plataforma .NET, con el propósito de digitalizar los procesos de asistencia y registro de notas de estudiantes por asignatura. 
+
+Esta tarea contempla cuatro etapas fundamentales: 
+
+ 
+
+Levantamiento y análisis de requerimientos funcionales y no funcionales, utilizando técnicas formales. 
+Diseño orientado a objetos, representado mediante un diagrama de clases UML coherente con los requerimientos del sistema. 
+Construcción de pruebas unitarias, con el fin de validar las funcionalidades clave antes de integrar la solución. 
+Implementación de la aplicación funcional en C#, cumpliendo con principios de programación orientada a objetos y entregando su documentación correspondiente (manual técnico básico y estructura del código). 
+ 
+
+Durante el desarrollo de esta tarea, deberás aplicar conocimientos de análisis, diseño, codificación, validación y documentación de software, siguiendo buenas prácticas de desarrollo y asegurando la trazabilidad entre requerimientos, diseño y producto final. 
+
+ 
+
+Productos esperados: 
+
+Documento de requerimientos levantados 
+Diagrama de clases UML 
+Pruebas unitarias implementadas 
+Aplicación funcional en C# 
+Documentación técnica del software desarrollado 
+ 
+
+Subtarea 3A  
+
+ 
+
+A partir del caso “Instituto Códice”, levanta una lista de requerimientos funcionales y no funcionales del sistema. Usa una plantilla de especificación simple que incluya nombre del requerimiento, tipo, descripción breve y prioridad (basada en el C.E. 2.16). 
+
+ 
+
+Producto esperado: 
+
+Documento de requerimientos (mínimo 6, incluyendo al menos 4 funcionales) 
+Formato libre o plantilla provista por el docente 
+  
+
+Subtarea 3B 
+
+ 
+
+Diseña un diagrama de clases UML que represente las entidades principales del sistema de asistencia y notas. Debe incluir clases, atributos, métodos y relaciones básicas (asociación, herencia, etc.) (basada en el C.E. 2.17). 
+
+ 
+
+Producto esperado: 
+
+Diagrama de clases digital en formato imagen o PDF (mínimo 5 clases) 
+Debe reflejar los requerimientos levantados previamente 
+ 
+
+Subtarea 3C 
+
+ 
+
+Crea al menos 3 pruebas unitarias en C# utilizando xUnit, NUnit o MSTest, para validar funcionalidades básicas del sistema (como agregar estudiante, registrar asistencia o calcular promedio) (basada en el C.E. 2.18). 
+
+ 
+
+Producto esperado: 
+
+Archivo de código con pruebas unitarias funcionales 
+Captura de resultados de ejecución (éxito/falla) 
+  
+
+Subtarea 3D 
+
+ 
+
+Desarrolla una aplicación de escritorio en C# (Windows Forms o WPF) que implemente al menos 3 de los requerimientos definidos. Incluye un manual técnico breve con descripción de clases principales, pantallas y funcionalidades (basada en el C.E. 2.19). 
+
+ 
+
+Producto esperado: 
+
+Ejecutable funcional (versión preliminar) 
+Manual técnico básico (máx. 2 páginas) 
+ 
+
+Observación: el criterio de evaluación transversal (actitudinal o valórico) no se abordará de forma directa en una subtarea ya que debe ser considerado de forma indirecta en la redacción del contexto de referencia y/o en la tarea/subtareas. 
+
+ 
+

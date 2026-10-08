@@ -1,0 +1,24 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="CanvasBrush" Color="#F3F5F9" />
+    <SolidColorBrush x:Key="SurfaceBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="TextBrush" Color="#17263D" />
+    <SolidColorBrush x:Key="MutedBrush" Color="#536277" />
+    <SolidColorBrush x:Key="LineBrush" Color="#DCE3EC" />
+    <SolidColorBrush x:Key="AccentBrush" Color="#245DD8" />
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="#1749B5" />
+    <SolidColorBrush x:Key="AccentSoftBrush" Color="#EAF0FF" />
+    <SolidColorBrush x:Key="SidebarBrush" Color="#14243D" />
+    <SolidColorBrush x:Key="SidebarHoverBrush" Color="#253956" />
+    <SolidColorBrush x:Key="SidebarTextBrush" Color="#E8EFFA" />
+    <SolidColorBrush x:Key="SuccessBrush" Color="#176B48" />
+    <SolidColorBrush x:Key="SuccessSurfaceBrush" Color="#EAF6F0" />
+    <SolidColorBrush x:Key="ErrorBrush" Color="#A52936" />
+    <SolidColorBrush x:Key="ErrorSurfaceBrush" Color="#FCEEF0" />
+    <SolidColorBrush x:Key="SelectionBrush" Color="#DDE8FF" />
+    <FontFamily x:Key="UiFont">Segoe UI</FontFamily>
+    <CornerRadius x:Key="CardRadius">12</CornerRadius>
+    <Thickness x:Key="CardPadding">22</Thickness>
+    <Thickness x:Key="PagePadding">28</Thickness>
+    <Thickness x:Key="FieldGap">0,0,0,14</Thickness>
+</ResourceDictionary>

@@ -1,0 +1,43 @@
+<UserControl x:Class="Codice.Desktop.Views.CoursesView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer VerticalScrollBarVisibility="Auto"><Grid Style="{StaticResource ScreenRoot}">
+        <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="20" /><ColumnDefinition Width="310" /></Grid.ColumnDefinitions>
+        <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+        <Border Style="{StaticResource Card}"><StackPanel>
+            <TextBlock Text="Cursos registrados" Style="{StaticResource SectionTitle}" />
+            <DataGrid ItemsSource="{Binding Items}" SelectedItem="{Binding Selected}" Height="180"><DataGrid.Columns>
+                <DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Asignatura" Binding="{Binding Subject}" Width="*" /><DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Sección" Binding="{Binding Section}" Width="75" /><DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Período" Binding="{Binding Period}" Width="90" />
+            </DataGrid.Columns></DataGrid>
+            <TextBlock Text="{Binding SelectedLabel}" Style="{StaticResource MutedText}" Margin="0,14,0,14" />
+            <TabControl>
+                <TabItem Header="Matrículas"><StackPanel Margin="12">
+                    <TextBlock Text="Estudiante *" Style="{StaticResource FieldLabel}" /><ComboBox ItemsSource="{Binding Students}" SelectedItem="{Binding Student}" DisplayMemberPath="Display" Margin="{StaticResource FieldGap}" />
+                    <TextBlock Text="Fecha de matrícula *" Style="{StaticResource FieldLabel}" /><DatePicker SelectedDate="{Binding EnrollmentDate}" Margin="{StaticResource FieldGap}" />
+                    <Button Content="Matricular estudiante" Command="{Binding EnrollCommand}" HorizontalAlignment="Left" Margin="0,0,0,14" />
+                    <DataGrid ItemsSource="{Binding Enrollments}" Height="160"><DataGrid.Columns><DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Estudiantes matriculados" Binding="{Binding Student}" Width="*" /></DataGrid.Columns></DataGrid>
+                </StackPanel></TabItem>
+                <TabItem Header="Evaluaciones"><StackPanel Margin="12">
+                    <TextBlock Text="Nombre *" Style="{StaticResource FieldLabel}" /><TextBox Text="{Binding AssessmentName, UpdateSourceTrigger=PropertyChanged}" Margin="{StaticResource FieldGap}" />
+                    <TextBlock Text="Fecha *" Style="{StaticResource FieldLabel}" /><DatePicker SelectedDate="{Binding AssessmentDate}" Margin="{StaticResource FieldGap}" />
+                    <Button Content="Crear evaluación" Command="{Binding AssessmentCommand}" HorizontalAlignment="Left" Margin="0,0,0,14" />
+                    <DataGrid ItemsSource="{Binding Assessments}" Height="160"><DataGrid.Columns><DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Evaluación" Binding="{Binding Name}" Width="*" /><DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Fecha" Binding="{Binding Date, StringFormat=dd/MM/yyyy}" Width="105" /></DataGrid.Columns></DataGrid>
+                </StackPanel></TabItem>
+                <TabItem Header="Sesiones"><StackPanel Margin="12">
+                    <TextBlock Text="Fecha *" Style="{StaticResource FieldLabel}" /><DatePicker SelectedDate="{Binding SessionDate}" Margin="{StaticResource FieldGap}" />
+                    <TextBlock Text="Hora * · HH:mm" Style="{StaticResource FieldLabel}" /><TextBox Text="{Binding SessionTime, UpdateSourceTrigger=PropertyChanged}" Margin="{StaticResource FieldGap}" />
+                    <Button Content="Crear sesión" Command="{Binding SessionCommand}" HorizontalAlignment="Left" Margin="0,0,0,14" />
+                    <DataGrid ItemsSource="{Binding Sessions}" Height="160"><DataGrid.Columns><DataGridTextColumn ElementStyle="{StaticResource TableText}" Header="Fecha y hora · Chile continental" Binding="{Binding Display}" Width="*" /></DataGrid.Columns></DataGrid>
+                </StackPanel></TabItem>
+            </TabControl>
+        </StackPanel></Border>
+        <Border Grid.Column="2" Style="{StaticResource Card}" VerticalAlignment="Top"><StackPanel>
+            <TextBlock Text="Nuevo curso" Style="{StaticResource SectionTitle}" />
+            <TextBlock Text="Asignatura *" Style="{StaticResource FieldLabel}" /><ComboBox ItemsSource="{Binding Subjects}" SelectedItem="{Binding Subject}" DisplayMemberPath="Display" Margin="{StaticResource FieldGap}" />
+            <TextBlock Text="Sección *" Style="{StaticResource FieldLabel}" /><TextBox Text="{Binding Section, UpdateSourceTrigger=PropertyChanged}" Margin="{StaticResource FieldGap}" />
+            <TextBlock Text="Período *" Style="{StaticResource FieldLabel}" /><TextBox Text="{Binding Period, UpdateSourceTrigger=PropertyChanged}" Margin="{StaticResource FieldGap}" />
+            <TextBlock Text="Inicio *" Style="{StaticResource FieldLabel}" /><DatePicker SelectedDate="{Binding Start}" Margin="{StaticResource FieldGap}" />
+            <TextBlock Text="Término *" Style="{StaticResource FieldLabel}" /><DatePicker SelectedDate="{Binding End}" Margin="{StaticResource FieldGap}" />
+            <Button Content="Crear curso" Command="{Binding CreateCommand}" /><TextBlock Text="Selecciona después el curso para preparar sus actividades." Style="{StaticResource MutedText}" Margin="0,14,0,0" />
+        </StackPanel></Border>
+        
+    </Grid></ScrollViewer>
+</UserControl>

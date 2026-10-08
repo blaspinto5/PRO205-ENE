@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="fdfff8e2-6ad0-4efa-a30a-d4c8442760d8" name="blasp@BLAS 2026-10-06 16:13:32" runUser="BLAS\blasp" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-06T16:13:32.5850324-03:00" queuing="2026-10-06T16:13:32.5850330-03:00" start="2026-10-06T16:13:28.9507352-03:00" finish="2026-10-06T16:13:33.2199265-03:00" />
+  <TestSettings name="default" id="22fb893f-c31b-4c72-9072-981077bc617e">
+    <Deployment runDeploymentRoot="blasp_BLAS_2026-10-06_16_13_32" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a87c894f-0e8c-4851-a9b6-dde7eab07109" testId="f6428084-08b3-d8a5-efdb-116e8f8ea47d" testName="Codice.DesktopTests.DesktopWorkflowTests.AcademicForms_WhenEntireFlowIsPerformed_PersistCorrectionsAndBothReportScopes" computerName="BLAS" duration="00:00:00.5312122" startTime="2026-10-06T16:13:32.5977314-03:00" endTime="2026-10-06T16:13:33.1286456-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a87c894f-0e8c-4851-a9b6-dde7eab07109" />
+    <UnitTestResult executionId="65bda07c-226d-4e3f-9f75-ed4bf86a90fe" testId="56fcc459-08c8-15b7-fd17-08d8fc2472b4" testName="Codice.DesktopTests.DesktopWorkflowTests.StudentAndSubjectForms_WhenCreatedAndEdited_PreserveCodesAndIdentity" computerName="BLAS" duration="00:00:00.1769822" startTime="2026-10-06T16:13:32.0990386-03:00" endTime="2026-10-06T16:13:32.2616490-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65bda07c-226d-4e3f-9f75-ed4bf86a90fe" />
+    <UnitTestResult executionId="d6d5c545-9f48-4189-b3dc-e64ade0d0974" testId="5550538c-4963-d547-b778-e6a2e45881a7" testName="Codice.DesktopTests.DesktopWorkflowTests.CoursesForm_WhenSessionTimeIsMalformed_DoesNotCreateSession" computerName="BLAS" duration="00:00:02.2152276" startTime="2026-10-06T16:13:29.8584920-03:00" endTime="2026-10-06T16:13:32.0839485-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6d5c545-9f48-4189-b3dc-e64ade0d0974" />
+    <UnitTestResult executionId="521c0383-791f-428e-948e-3f736ee516d2" testId="987640f2-d9ca-4c38-9eaf-7fcba5e72a26" testName="Codice.DesktopTests.DesktopWorkflowTests.StudentForm_WhenRequiredFieldIsMissing_ShowsSpanishErrorWithoutSaving(code: &quot;&quot;, first: &quot;Ana&quot;, last: &quot;Pérez&quot;)" computerName="BLAS" duration="00:00:00.0500924" startTime="2026-10-06T16:13:32.3244803-03:00" endTime="2026-10-06T16:13:32.3745132-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="521c0383-791f-428e-948e-3f736ee516d2" />
+    <UnitTestResult executionId="c470cf64-f870-4490-9a80-00df29058d4c" testId="c7b94c32-458f-f999-307a-b35be668ee24" testName="Codice.DesktopTests.DesktopWorkflowTests.StudentForm_WhenRequiredFieldIsMissing_ShowsSpanishErrorWithoutSaving(code: &quot;EST-1&quot;, first: &quot;&quot;, last: &quot;Pérez&quot;)" computerName="BLAS" duration="00:00:00.0626384" startTime="2026-10-06T16:13:32.2628363-03:00" endTime="2026-10-06T16:13:32.3243388-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c470cf64-f870-4490-9a80-00df29058d4c" />
+    <UnitTestResult executionId="3b95ebfa-a861-45b2-8ce2-6e8459c4cc1e" testId="16b48b28-f646-48a8-9a58-03205b0c1b67" testName="Codice.DesktopTests.DesktopWorkflowTests.AttendanceForm_WhenSessionIsFuture_ShowsErrorAndLeavesRecordPending" computerName="BLAS" duration="00:00:00.2226853" startTime="2026-10-06T16:13:32.3747140-03:00" endTime="2026-10-06T16:13:32.5975483-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b95ebfa-a861-45b2-8ce2-6e8459c4cc1e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Codice.DesktopTests.DesktopWorkflowTests.StudentForm_WhenRequiredFieldIsMissing_ShowsSpanishErrorWithoutSaving(code: &quot;&quot;, first: &quot;Ana&quot;, last: &quot;Pérez&quot;)" storage="c:\users\blasp\desktop\ene_proyect\tests\codice.desktoptests\bin\release\net10.0-windows\codice.desktoptests.dll" id="987640f2-d9ca-4c38-9eaf-7fcba5e72a26">
+      <Execution id="521c0383-791f-428e-948e-3f736ee516d2" />
+      <TestMethod codeBase="C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.DesktopTests\bin\Release\net10.0-windows\Codice.DesktopTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Codice.DesktopTests.DesktopWorkflowTests" name="StudentForm_WhenRequiredFieldIsMissing_ShowsSpanishErrorWithoutSaving" />
+    </UnitTest>
+    <UnitTest name="Codice.DesktopTests.DesktopWorkflowTests.AttendanceForm_WhenSessionIsFuture_ShowsErrorAndLeavesRecordPending" storage="c:\users\blasp\desktop\ene_proyect\tests\codice.desktoptests\bin\release\net10.0-windows\codice.desktoptests.dll" id="16b48b28-f646-48a8-9a58-03205b0c1b67">
+      <Execution id="3b95ebfa-a861-45b2-8ce2-6e8459c4cc1e" />
+      <TestMethod codeBase="C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.DesktopTests\bin\Release\net10.0-windows\Codice.DesktopTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Codice.DesktopTests.DesktopWorkflowTests" name="AttendanceForm_WhenSessionIsFuture_ShowsErrorAndLeavesRecordPending" />
+    </UnitTest>
+    <UnitTest name="Codice.DesktopTests.DesktopWorkflowTests.CoursesForm_WhenSessionTimeIsMalformed_DoesNotCreateSession" storage="c:\users\blasp\desktop\ene_proyect\tests\codice.desktoptests\bin\release\net10.0-windows\codice.desktoptests.dll" id="5550538c-4963-d547-b778-e6a2e45881a7">
+      <Execution id="d6d5c545-9f48-4189-b3dc-e64ade0d0974" />
+      <TestMethod codeBase="C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.DesktopTests\bin\Release\net10.0-windows\Codice.DesktopTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Codice.DesktopTests.DesktopWorkflowTests" name="CoursesForm_WhenSessionTimeIsMalformed_DoesNotCreateSession" />
+    </UnitTest>
+    <UnitTest name="Codice.DesktopTests.DesktopWorkflowTests.StudentForm_WhenRequiredFieldIsMissing_ShowsSpanishErrorWithoutSaving(code: &quot;EST-1&quot;, first: &quot;&quot;, last: &quot;Pérez&quot;)" storage="c:\users\blasp\desktop\ene_proyect\tests\codice.desktoptests\bin\release\net10.0-windows\codice.desktoptests.dll" id="c7b94c32-458f-f999-307a-b35be668ee24">
+      <Execution id="c470cf64-f870-4490-9a80-00df29058d4c" />
+      <TestMethod codeBase="C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.DesktopTests\bin\Release\net10.0-windows\Codice.DesktopTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Codice.DesktopTests.DesktopWorkflowTests" name="StudentForm_WhenRequiredFieldIsMissing_ShowsSpanishErrorWithoutSaving" />
+    </UnitTest>
+    <UnitTest name="Codice.DesktopTests.DesktopWorkflowTests.StudentAndSubjectForms_WhenCreatedAndEdited_PreserveCodesAndIdentity" storage="c:\users\blasp\desktop\ene_proyect\tests\codice.desktoptests\bin\release\net10.0-windows\codice.desktoptests.dll" id="56fcc459-08c8-15b7-fd17-08d8fc2472b4">
+      <Execution id="65bda07c-226d-4e3f-9f75-ed4bf86a90fe" />
+      <TestMethod codeBase="C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.DesktopTests\bin\Release\net10.0-windows\Codice.DesktopTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Codice.DesktopTests.DesktopWorkflowTests" name="StudentAndSubjectForms_WhenCreatedAndEdited_PreserveCodesAndIdentity" />
+    </UnitTest>
+    <UnitTest name="Codice.DesktopTests.DesktopWorkflowTests.AcademicForms_WhenEntireFlowIsPerformed_PersistCorrectionsAndBothReportScopes" storage="c:\users\blasp\desktop\ene_proyect\tests\codice.desktoptests\bin\release\net10.0-windows\codice.desktoptests.dll" id="f6428084-08b3-d8a5-efdb-116e8f8ea47d">
+      <Execution id="a87c894f-0e8c-4851-a9b6-dde7eab07109" />
+      <TestMethod codeBase="C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.DesktopTests\bin\Release\net10.0-windows\Codice.DesktopTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Codice.DesktopTests.DesktopWorkflowTests" name="AcademicForms_WhenEntireFlowIsPerformed_PersistCorrectionsAndBothReportScopes" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f6428084-08b3-d8a5-efdb-116e8f8ea47d" executionId="a87c894f-0e8c-4851-a9b6-dde7eab07109" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56fcc459-08c8-15b7-fd17-08d8fc2472b4" executionId="65bda07c-226d-4e3f-9f75-ed4bf86a90fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5550538c-4963-d547-b778-e6a2e45881a7" executionId="d6d5c545-9f48-4189-b3dc-e64ade0d0974" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="987640f2-d9ca-4c38-9eaf-7fcba5e72a26" executionId="521c0383-791f-428e-948e-3f736ee516d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7b94c32-458f-f999-307a-b35be668ee24" executionId="c470cf64-f870-4490-9a80-00df29058d4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16b48b28-f646-48a8-9a58-03205b0c1b67" executionId="3b95ebfa-a861-45b2-8ce2-6e8459c4cc1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.12)&#xD;
+[xUnit.net 00:00:00.13]   Discovering: Codice.DesktopTests&#xD;
+[xUnit.net 00:00:00.20]   Discovered:  Codice.DesktopTests&#xD;
+[xUnit.net 00:00:00.24]   Starting:    Codice.DesktopTests&#xD;
+[xUnit.net 00:00:03.55]   Finished:    Codice.DesktopTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

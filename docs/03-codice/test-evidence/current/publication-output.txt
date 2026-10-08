@@ -1,0 +1,12 @@
+  Determinando los proyectos que se van a restaurar...
+  Se ha restaurado C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Domain\Codice.Domain.csproj (en 305 ms).
+  Se ha restaurado C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Application\Codice.Application.csproj (en 310 ms).
+  Se ha restaurado C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Desktop\Codice.Desktop.csproj (en 349 ms).
+  Se ha restaurado C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Infrastructure\Codice.Infrastructure.csproj (en 390 ms).
+  Codice.Domain -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Domain\bin\Release\net10.0\Codice.Domain.dll
+  Codice.Application -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Application\bin\Release\net10.0\Codice.Application.dll
+  Codice.Infrastructure -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Infrastructure\bin\Release\net10.0\Codice.Infrastructure.dll
+  Codice.Desktop -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Desktop\bin\Release\net10.0-windows\win-x64\Codice.Desktop.dll
+  Codice.Desktop -> C:\Users\blasp\Desktop\ENE_PROYECT\entrega\Codice-win-x64-20261006-191506-2a2548a4\
+Published folder: C:\Users\blasp\Desktop\ENE_PROYECT\entrega\Codice-win-x64-20261006-191506-2a2548a4
+Publication is not acceptance verification. Complete the portable checklist before delivery.

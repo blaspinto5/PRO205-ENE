@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Codice.Desktop</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Codice.Application/Codice.Application.csproj" />
+    <ProjectReference Include="../Codice.Infrastructure/Codice.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

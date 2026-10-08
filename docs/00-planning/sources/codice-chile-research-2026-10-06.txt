@@ -1,0 +1,127 @@
+Sí hay base suficiente para fundamentar **Códice**, pero la conclusión central es importante: **en Chile no existe una regla nacional única para IP y CFT que determine que todas las instituciones deban usar exactamente la misma fórmula de notas, ponderaciones o porcentaje de asistencia**.
+
+## 1. Qué es general y qué depende de cada institución
+
+La **Ley 21.091 sobre Educación Superior** distingue el subsistema universitario del subsistema técnico-profesional. Este último incluye a los **Institutos Profesionales (IP)** y **Centros de Formación Técnica (CFT)**. La ley establece el marco general del sistema, pero no fija una fórmula nacional detallada de calificación o asistencia para todos los IP/CFT. [Biblioteca del Congreso Chile](https://www.bcn.cl/leychile/Navegar?idNorma=1118991\&idVersion=2026-08-12\&utm_source=chatgpt.com)
+
+Esto es distinto de la **educación escolar**. El Decreto 67/2018 sí establece reglas mínimas nacionales, entre ellas escala 1,0–7,0 y aprobación 4,0, pero expresamente se aplica a **educación básica y media**, por lo que no corresponde usarlo como fundamento obligatorio para un instituto profesional o CFT. [Biblioteca del Congreso Chile](https://www.bcn.cl/leychile/Navegar?idNorma=1127255\&idParte=9984568\&idVersion=2018-12-31\&utm_source=chatgpt.com)
+
+Además, las instituciones de educación superior autónomas poseen autonomía académica, y sus reglas concretas se materializan en sus reglamentos internos. El CNED describe dicha autonomía como la capacidad de desarrollar las funciones académicas conforme a sus estatutos. [Cned](https://cned.cl/glosario-y-acronimos/?utm_source=chatgpt.com)
+
+Por eso conviene distinguir:
+
+- **Obligación legal general:** protección de datos personales, existencia del marco de educación superior, matrícula y registros académicos conforme a las reglas institucionales.
+- **Regla institucional:** escala, asistencia mínima, ponderaciones, exámenes, redondeo, recuperaciones, etc.
+- **Práctica frecuente:** escala 1,0–7,0 y aprobación con 4,0 aparecen en instituciones como AIEP e INACAP, pero eso **no convierte esas reglas en norma nacional para todos los IP/CFT**. [AIEP Respuestas](https://respuestas.aiep.cl/es_CL/academico/%C2%BFcomo-funciona-el-proceso-de-calificaciones-en-aiep?utm_source=chatgpt.com)
+- **Decisión de diseño de Códice:** cuando el enunciado no fija una regla, podemos elegir una alternativa razonable, documentarla como supuesto y mantenerla suficientemente simple.
+
+Una referencia particularmente útil es **AIEP**. El texto refundido del Reglamento Académico de 7 de enero de 2025 establece escala 1 a 7, un decimal, aproximación desde cinco centésimas, aprobación desde 4,0, cálculos ponderados y requisitos de asistencia. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf)
+
+Hay una salvedad: el Portal de Transparencia de AIEP actualmente menciona además un **“Decreto Modifica Reglamento Académico” de 18 de diciembre de 2025**. Pude verificar que ese documento aparece listado en el portal, pero la búsqueda no me permitió recuperar su contenido completo para comparar artículo por artículo. [Transparencia AIEP](https://transparencia.aiep.cl/index.php/docs/reglamento-academico/?utm_source=chatgpt.com) Las páginas oficiales actuales de ayuda de AIEP siguen informando escala 1,0–7,0, aprobación 4,0, 70/30 y los porcentajes 50%/70% de asistencia, por lo que esas reglas parecen seguir operativas en 2026. [AIEP Respuestas](https://respuestas.aiep.cl/es_CL/academico/%C2%BFcomo-funciona-el-proceso-de-calificaciones-en-aiep?utm_source=chatgpt.com)
+
+[Ley 21.091 sobre Educación Superior — BCN, versión vigente 12-08-2026](https://www.bcn.cl/leychile/Navegar?idNorma=1118991&idVersion=2026-08-12&utm_source=chatgpt.com)  
+[Portal de Transparencia AIEP — Reglamento Académico](https://transparencia.aiep.cl/index.php/docs/reglamento-academico/?utm_source=chatgpt.com)  
+[Reglamento Académico AIEP — texto refundido 07-01-2025](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf?utm_source=chatgpt.com)
+
+---
+
+## 2. Matriz de reglas para Códice
+
+| Tema | Evidencia y fuente | Aplicabilidad | Regla propuesta para Códice | Justificación | Pendiente de confirmar |
+|---|---|---|---|---|---|
+| **Escala de calificaciones** | AIEP, Reglamento Académico 07-01-2025, art. 24: escala **1 a 7**. INACAP también usa **1,0–7,0**. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | **Institucional**, no obligación nacional general para todos los IP/CFT. | Usar **1,0 a 7,0**. | Es consistente con instituciones TP chilenas verificadas y resulta natural para el contexto del proyecto. | Confirmar si el profesor/enunciado pretende replicar una institución específica. |
+| **Nota mínima de aprobación** | AIEP art. 24: **4,0**; INACAP art. 25: **4,0**. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Institucional; práctica ampliamente utilizada, pero no se encontró una ley que la imponga universalmente a IP/CFT. | **4,0**. Notas ≥4,0 = aprobadas; <4,0 = reprobadas. | Regla sencilla y respaldada por instituciones reales. | Confirmar reglamento ficticio/institucional si existiera. |
+| **Decimales** | AIEP art. 24: calificaciones con **un decimal**. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Institucional. | Mostrar y almacenar la nota académica final con **1 decimal**. | Evita resultados como 5,833333 y coincide con la práctica verificada. | Ninguno importante. |
+| **Redondeo** | AIEP art. 24: centésimas ≥5 suben a la décima superior. INACAP establece regla equivalente. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Institucional. | Redondeo convencional: **5,45 → 5,5; 5,44 → 5,4**. Aplicarlo al resultado, no después de cada operación intermedia salvo que la regla académica lo exija. | Reproducible y verificable. | Determinar exactamente en qué etapas se redondeará si posteriormente se introducen ponderaciones complejas. |
+| **Promedio de evaluaciones** | AIEP usa promedio aritmético dentro de unidades y luego ponderaciones por horas; además usa presentación 70% + examen 30%. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | **Regla AIEP**, no nacional. | Para una primera versión, permitir evaluaciones con **ponderación**; si no se especifica ponderación, usar pesos iguales. | Permite promedio simple y ponderado sin imponer la fórmula específica de AIEP a una institución ficticia. | Confirmar si la rúbrica exige explícitamente promedio simple. |
+| **70% presentación / 30% examen** | AIEP 2025 y página institucional vigente informan 70% + 30%. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | **Específica de AIEP**. | **No incorporarla como regla obligatoria de Códice** salvo que se decida explícitamente modelar AIEP. | El enunciado sólo pide ingresar/modificar calificaciones. Agregar exámenes, eximiciones y recalificaciones aumentaría innecesariamente el alcance. | Sí: sólo incorporar si el caso de estudio lo exige. |
+| **Evaluación pendiente** | AIEP distingue evaluación no rendida/justificada de una calificación efectivamente asignada; la nota 1,0 aparece una vez rechazada la justificación o ante inasistencia posterior. [AIEP Respuestas](https://respuestas.aiep.cl/es_CL/academico/%C2%BFcomo-funciona-el-proceso-de-calificaciones-en-aiep?utm_source=chatgpt.com) | Institucional. | Una evaluación pendiente debe tener estado **PENDIENTE / sin calificación**, no nota 1,0 automática. No participa en el promedio hasta resolverse. | Evita convertir la ausencia de información en una calificación real. | Determinar qué debe ocurrir al cierre del período con pendientes. |
+| **Inasistencia a evaluación** | En AIEP una ausencia justificada puede generar nueva fecha; injustificada puede terminar en 1,0. [AIEP Respuestas](https://respuestas.aiep.cl/es_CL/academico/%C2%BFcomo-funciona-el-proceso-de-calificaciones-en-aiep?utm_source=chatgpt.com) | Específica de AIEP. | No automatizar 1,0 por ausencia en Códice. Permitir que el operador ingrese posteriormente la nota o mantenga “pendiente”. | El proyecto no pide workflow de justificaciones ni evaluaciones recuperativas. | Política institucional real. |
+| **Unidad de asistencia** | AIEP exige registro de asistencia y calcula cumplimiento respecto de horas/clases del módulo; el registro de actividades y asistencia debe quedar en el instrumento institucional. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Regla institucional y práctica académica. | Registrar asistencia por **sesión de una asignatura**, con fecha. | “Por día” sería ambiguo si el estudiante tiene varias asignaturas el mismo día. Una sesión identifica qué clase ocurrió. | Confirmar si el enunciado usa “fecha” con un sentido estrictamente diario. |
+| **Estados de asistencia** | Los reglamentos revisados regulan fundamentalmente asistencia/inasistencia y porcentajes. No encontré una taxonomía nacional obligatoria de estados. | No regulado nacionalmente en las fuentes examinadas. | Estados mínimos: **PRESENTE** y **AUSENTE**. Una eventual justificación debe ser atributo separado, no un tercer tipo de presencia. | Mantiene el modelo simple y evita confundir justificación con presencia física. | Si se requieren atrasos, retiro anticipado u otros estados. |
+| **Porcentaje mínimo de asistencia** | AIEP exige 50% de horas lectivas/online y 70% prácticas. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | **Específico de AIEP**; no regla nacional de IP/CFT. | Códice debe **calcular el porcentaje**, pero no necesariamente reprobar automáticamente por porcentaje en la primera versión. | El enunciado pide gestión de asistencia, no aplicación automática de causales de reprobación. | Definir umbral sólo si la institución ficticia lo exige. |
+| **Duplicados de asistencia** | No encontré una norma nacional que defina la restricción técnica. | Diseño del sistema. | Sólo puede existir **un registro por estudiante + sesión**. | Impide que una misma persona figure presente y ausente simultáneamente. Es una restricción de integridad, no una regla académica inventada. | Ninguno. |
+| **Corrección de asistencia** | La Ley 19.628 exige que los datos sean exactos/actualizados y reconoce rectificación de datos incorrectos. [Biblioteca del Congreso Chile](https://www.bcn.cl/leychile/navegar?i=141599\&utm_source=chatgpt.com) | **Legal en materia de datos**, no una regla académica de asistencia concreta. | Permitir corregir un registro existente, guardando al menos **fecha de última modificación**. | Cumple mejor con exactitud y permite corregir errores docentes. | Decidir si la rúbrica exige auditoría completa; no la añadiría sin necesidad. |
+| **Identificación del estudiante** | Reglamento AIEP 2025 art. 18 incluye nombres/apellidos, RUT o pasaporte, carrera, módulos y fecha de matrícula, entre otros. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Regla AIEP; útil como referencia. | `idEstudiante` interno + nombres + apellidos + **RUN/RUT o pasaporte**. Mantener sólo datos necesarios para Códice. | El identificador interno evita usar el RUT como clave técnica; RUT/pasaporte permite identificación académica real. | Si el ejercicio exige teléfono, correo, domicilio, etc.; no añadirlos sin razón. |
+| **Identificador técnico del estudiante** | La legislación de datos trata RUT/número de identidad como dato personal; desde 01-12-2026 la nueva normativa refuerza proporcionalidad y minimización. [Biblioteca del Congreso Chile](https://www.bcn.cl/leychile/Navegar?idNorma=141599\&idParte=8642681\&idVersion=2026-12-01\&utm_source=chatgpt.com) | Protección de datos. | Usar una **clave interna generada por el sistema** como identificador primario. Mantener RUT/pasaporte como atributo único cuando exista. | Reduce acoplamiento del modelo a información personal y admite estudiantes extranjeros. | Ninguno. |
+| **Datos mínimos de asignatura** | AIEP organiza formación mediante módulos, planes de estudio y períodos; no encontré una norma nacional que imponga campos de software concretos. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Diseño institucional. | `idAsignatura`, **código**, nombre. Relacionarla con período/curso cuando se imparte. | Mínimo suficiente para CRUD, notas, asistencia e informes. | Si la rúbrica exige horas, créditos o descripción. |
+| **Período académico** | AIEP contempla períodos semestrales, anuales, bimensuales, trimestrales o cuatrimestrales. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Institucional; demuestra que el período no es necesariamente siempre “semestre”. | Crear concepto genérico **Período Académico**: nombre, fecha de inicio y término. | Evita codificar “semestre” como única opción. | Para el prototipo puede usarse simplemente “2026-1”. |
+| **Matrícula** | SIES/Mineduc define al estudiante matriculado como quien está oficialmente registrado en una carrera/programa de acuerdo con la reglamentación interna de la institución. [Subsecretaría de Educación Superior](https://educacionsuperior.mineduc.cl/wp-content/uploads/sites/49/2024/07/2024-MATRICULA-VF-1.pdf?utm_source=chatgpt.com) | Marco oficial de educación superior. | La **matrícula** debe relacionar Estudiante + Curso/Programa/Sección + Período. | Separa la persona de su participación académica en un período determinado. | Definir qué significa exactamente “curso” en el enunciado. |
+| **Estudiante y curso** | SIES señala incluso que una misma persona puede figurar matriculada en más de un programa. [Subsecretaría de Educación Superior](https://educacionsuperior.mineduc.cl/wp-content/uploads/sites/49/2024/07/2024-MATRICULA-VF-1.pdf?utm_source=chatgpt.com) | Evidencia de estructura académica real. | No guardar simplemente `curso` como atributo permanente del estudiante. Utilizar una relación de matrícula. | Evita perder historial cuando cambia de período o grupo. | Para un prototipo extremadamente simple podría limitarse a una matrícula activa. |
+| **Asignatura y curso** | Los reglamentos institucionales separan plan de estudios, módulos y períodos. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Institucional/diseño. | Una asignatura puede impartirse a uno o más cursos/períodos mediante una **oferta o asignación académica**. | Es necesaria para saber a qué grupo corresponden las notas y asistencias. | Puede simplificarse si cada asignatura sólo se dicta a un curso en el ejercicio. |
+| **Informe individual** | AIEP exige mantener actualizado el registro académico del estudiante y consigna calificaciones finales en el sistema académico. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf) | Regla AIEP, compatible con práctica académica. | Informe: identificación, período/curso, asignaturas cursadas, calificaciones, promedio/final, porcentaje de asistencia y estado académico derivado. | Corresponde directamente al enunciado, sin funciones adicionales. | Determinar si debe poder exportarse; el enunciado sólo dice “informes”. |
+| **Informe por curso** | No encontré una estructura legal nacional obligatoria de informe por curso para IP/CFT. | Diseño del proyecto. | Lista de estudiantes del curso y, por asignatura, **nota final/promedio y asistencia**. Puede incluir promedio general del curso. | Es la interpretación mínima razonable del requisito. | Confirmar con docente si “curso” significa sección, carrera o asignatura. |
+| **Datos personales** | Ley 19.628 vigente hasta el **30-11-2026**: finalidad, exactitud, derechos de rectificación y deber de diligencia del responsable. [Biblioteca del Congreso Chile](https://www.bcn.cl/leychile/Navegar?idNorma=141599\&idParte=8642680\&utm_source=chatgpt.com) | **Obligación legal general.** | Recoger sólo datos necesarios, usarlos sólo para gestión académica y permitir su corrección. | Calificaciones, asistencia, nombre y RUT son información vinculada a una persona identificable. | Definir responsable real del tratamiento si esto pasara de proyecto académico a producción. |
+| **Nueva normativa de datos** | Ley **21.719**, publicada 13-12-2024, entra en vigencia **01-12-2026**. Incorpora proporcionalidad, seguridad y protección desde el diseño. [Biblioteca del Congreso Chile](https://www.bcn.cl/leychile/Navegar?idNorma=1209272\&idParte=10527471\&idVersion=2026-12-01\&utm_source=chatgpt.com) | Todavía de vigencia diferida al 06-10-2026, pero relevante para diseñar una aplicación que será futura. | Diseñar Códice desde ya con **minimización, acceso restringido y protección de la base de datos**. | Evita diseñar algo que quede conceptualmente desactualizado pocas semanas después. | Revisar requisitos reglamentarios futuros si fuese una aplicación real. |
+| **Respaldo** | La nueva ley exige medidas apropiadas para disponibilidad, seguridad y recuperación de los datos, pero no establece en estas disposiciones un “backup diario” universal para aplicaciones académicas. [Biblioteca del Congreso Chile](https://www.bcn.cl/leychile/navegar?idNorma=141599\&idParte=10528052\&idVersion=2026-12-01\&utm_source=chatgpt.com) | Principio legal general + implementación técnica proporcional. | Una copia de respaldo local/externa de la base académica, protegida y recuperable. Para el proyecto basta una política simple. | Una base académica perdida implica pérdida de calificaciones y asistencia. | Frecuencia y retención deben ser decisión institucional, no presentarlas como exigencia legal. |
+
+---
+
+# 3. Decisiones que recomiendo adoptar
+
+## Respaldadas directamente por fuentes institucionales/oficiales
+
+Para el proyecto resulta defendible utilizar:
+
+- **Escala:** 1,0 a 7,0.
+- **Aprobación:** desde 4,0.
+- **Precisión visible:** un decimal.
+- **Redondeo:** centésimas ≥5 elevan la décima.
+- **Estudiante:** nombre, apellidos y RUT/pasaporte como información identificatoria, además de un ID interno.
+- **Existencia de matrícula y período académico:** no modelar al estudiante como perteneciente eternamente a un solo curso.
+- **Asistencia vinculada a una asignatura/módulo:** no sólo a una fecha genérica.
+- **Protección de datos:** exactitud, finalidad, corrección, minimización y seguridad. [Transparencia AIEP](https://transparencia.aiep.cl/wp-content/uploads/2025/01/2025.01.07-Decreto-Modifica-Reglamento-Academico.pdf)
+
+### Importante
+
+Los cuatro primeros puntos están **respaldados como reglas reales de instituciones como AIEP/INACAP**, no como mandato nacional aplicable a cualquier IP/CFT.
+
+---
+
+# 4. Supuestos de diseño recomendados para Códice
+
+Estos deberían quedar explícitamente etiquetados como **“reglas adoptadas para el proyecto debido a que el enunciado no las especifica”**:
+
+1. **Evaluación pendiente ≠ nota 1,0.**  
+   Se representa como `PENDIENTE` y no participa del promedio hasta tener calificación.
+
+2. **Calificaciones con ponderación opcional.**  
+   Si todas tienen el mismo peso, el resultado equivale al promedio simple. Esto evita imponer el modelo 70/30 de AIEP.
+
+3. **No implementar todavía examen final, eximición, segunda oportunidad, APE/MAE ni justificación documental.**  
+   Son reglas institucionales reales, pero están fuera del alcance exigido.
+
+4. **Asistencia por sesión de asignatura.**  
+   Una sesión pertenece a una asignatura, curso/período y fecha.
+
+5. **Estados mínimos:** `PRESENTE` y `AUSENTE`.  
+   Una justificación, si posteriormente se necesitara, sería información adicional.
+
+6. **Un único registro de asistencia por estudiante y sesión.**  
+   Esto es una restricción de integridad del software.
+
+7. **La asistencia puede corregirse**, registrando al menos la última fecha de modificación.
+
+8. **Matrícula separada del estudiante.**  
+   La matrícula vincula al estudiante con un curso/sección y período.
+
+9. **Informe por estudiante:** asignaturas, notas, resultado y asistencia.
+
+10. **Informe por curso:** estudiantes, notas y asistencia, sin rankings ni analítica avanzada.
+
+11. **Base local protegida y respaldable.**  
+    Para el proyecto bastan medidas proporcionales: acceso restringido, sólo datos necesarios y posibilidad de respaldo/recuperación. La Ley 21.719, que entra en vigor el **1 de diciembre de 2026**, refuerza precisamente el enfoque de protección desde el diseño y seguridad proporcional. [Biblioteca del Congreso Chile](https://www.bcn.cl/leychile/Navegar?idNorma=1209272\&idParte=10527471\&idVersion=2026-12-01\&utm_source=chatgpt.com)
+
+## Conclusión para la documentación académica
+
+La fundamentación correcta no sería escribir:
+
+> “En Chile la ley obliga a todos los institutos a usar notas 1,0–7,0, aprobar con 4,0 y exigir X% de asistencia.”
+
+Eso **no está respaldado por la investigación**.
+
+La formulación defendible sería:
+
+> **Códice se diseña para el contexto de educación superior técnico-profesional chilena. La normativa nacional entrega el marco general, mientras que las reglas específicas de evaluación y asistencia dependen de cada institución. Para resolver las materias no definidas por el enunciado, se adoptan reglas simples inspiradas en reglamentos académicos públicos de instituciones chilenas —especialmente AIEP e INACAP—, dejando explícito que corresponden a decisiones del proyecto y no a exigencias legales universales.**
+
+Esa separación entre **ley → reglamento institucional → supuesto de Códice** es la base que conviene mantener después al convertir esto en requisitos funcionales, reglas de negocio y finalmente UML.

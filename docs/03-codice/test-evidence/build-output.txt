@@ -1,0 +1,11 @@
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos están actualizados para la restauración.
+  Codice.Domain -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Domain\bin\Release\net10.0\Codice.Domain.dll
+  Codice.Application -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Application\bin\Release\net10.0\Codice.Application.dll
+  Codice.UnitTests -> C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.UnitTests\bin\Release\net10.0\Codice.UnitTests.dll
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.81

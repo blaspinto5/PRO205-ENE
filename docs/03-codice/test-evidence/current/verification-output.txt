@@ -1,0 +1,112 @@
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos están actualizados para la restauración.
+  Codice.Domain -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Domain\bin\Release\net10.0\Codice.Domain.dll
+  Codice.Application -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Application\bin\Release\net10.0\Codice.Application.dll
+  Codice.Infrastructure -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Infrastructure\bin\Release\net10.0\Codice.Infrastructure.dll
+  Codice.UnitTests -> C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.UnitTests\bin\Release\net10.0\Codice.UnitTests.dll
+  Codice.IntegrationTests -> C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.IntegrationTests\bin\Release\net10.0\Codice.IntegrationTests.dll
+  Codice.Desktop -> C:\Users\blasp\Desktop\ENE_PROYECT\src\Codice.Desktop\bin\Release\net10.0-windows\Codice.Desktop.dll
+  Codice.DesktopTests -> C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.DesktopTests\bin\Release\net10.0-windows\Codice.DesktopTests.dll
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.51
+Serie de pruebas para C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.UnitTests\bin\Release\net10.0\Codice.UnitTests.dll (.NETCoreApp,Version=v10.0)
+1 archivos de prueba en total coincidieron con el patrón especificado.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.12]   Discovering: Codice.UnitTests
+[xUnit.net 00:00:00.22]   Discovered:  Codice.UnitTests
+[xUnit.net 00:00:00.26]   Starting:    Codice.UnitTests
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.RegisterGrade_WhenContextIsInvalid_RejectsWithoutAddingRecord(scenario: "duplicate") [16 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.CreateSession_WhenLocalTimeIsSkippedByDaylightSaving_RejectsWithoutSaving [16 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.RegisterGrade_WhenContextIsInvalid_RejectsWithoutAddingRecord(scenario: "before-enrollment") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.RegisterGrade_WhenContextIsInvalid_RejectsWithoutAddingRecord(scenario: "another-course") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.CalculateAverage_WhenGradesExist_ReturnsRoundedMean(first: "5.4", second: "5.4", expected: "5.4") [5 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.CalculateAverage_WhenGradesExist_ReturnsRoundedMean(first: "5.4", second: "5.5", expected: "5.5") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.CalculateAverage_WhenGradesExist_ReturnsRoundedMean(first: "3.9", second: "4.0", expected: "4.0") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.Enroll_WhenEnrollmentIsInvalid_PreservesEnrollmentCount(scenario: "before-course") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.Enroll_WhenEnrollmentIsInvalid_PreservesEnrollmentCount(scenario: "after-course") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.Enroll_WhenEnrollmentIsInvalid_PreservesEnrollmentCount(scenario: "duplicate") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.AddCourseEvent_WhenInvalid_PreservesExistingEvents(scenario: "assessment-date") [1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.AddCourseEvent_WhenInvalid_PreservesExistingEvents(scenario: "session-time") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.AddCourseEvent_WhenInvalid_PreservesExistingEvents(scenario: "session-utc") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.AddCourseEvent_WhenInvalid_PreservesExistingEvents(scenario: "assessment-name") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.AddCourseEvent_WhenInvalid_PreservesExistingEvents(scenario: "session-date") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.RecordAttendance_WhenContextIsInvalid_RejectsWithoutAddingRecord(scenario: "before-enrollment") [1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.RecordAttendance_WhenContextIsInvalid_RejectsWithoutAddingRecord(scenario: "invalid-status") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.RecordAttendance_WhenContextIsInvalid_RejectsWithoutAddingRecord(scenario: "another-course") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.RecordAttendance_WhenContextIsInvalid_RejectsWithoutAddingRecord(scenario: "future") [< 1 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.RecordAttendance_WhenRecordExists_RejectsDuplicateAndAllowsExplicitCorrection [13 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.UpdateStudentAndSubject_WhenNamesChange_PreservesAcademicLinks [6 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.CreateStudent_WhenRequiredNameIsEmpty_ThrowsException(first: "", last: "Pérez") [9 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.CreateStudent_WhenRequiredNameIsEmpty_ThrowsException(first: "Ana", last: " ") [< 1 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.RegisterSubjectAndCourse_WhenNormalizedKeysExist_RejectsDuplicates [4 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.ChangeValue_WhenValueIsValid_UpdatesValueAndTimestamp(value: 1) [4 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.ChangeValue_WhenValueIsValid_UpdatesValueAndTimestamp(value: 7) [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.ChangeValue_WhenTimestampMovesBackwards_PreservesRecord [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.ChangeValue_WhenValueIsInvalid_PreservesValueAndTimestamp(input: "0.9") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.ChangeValue_WhenValueIsInvalid_PreservesValueAndTimestamp(input: "5.45") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.ChangeValue_WhenValueIsInvalid_PreservesValueAndTimestamp(input: "7.1") [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.UpdateName_WhenLastNameIsInvalid_PreservesBothNames [< 1 ms]
+  Correctas Codice.UnitTests.Domain.AcademicRulesTests.GetSummary_WhenRecordsAreViewedPolymorphically_PreservesSpecializedBehavior [10 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.GetCourseReport_WhenCutoffIsApplied_ExcludesOtherCoursesAndFutureSessions [15 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.RegisterGrade_WhenAssessmentIsFromAnotherCourse_RejectsWithoutSaving [3 ms]
+[xUnit.net 00:00:00.40]   Finished:    Codice.UnitTests
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.GetReports_WhenNoEnrollmentsExist_ReturnsEmptyWithoutMutatingStore [3 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.UpdateGrade_WhenValueChanges_UpdatesExistingRecord [2 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.GetStudentReport_WhenGradesAreMissing_PreservesPendingState(hasGrade: True) [5 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.GetStudentReport_WhenGradesAreMissing_PreservesPendingState(hasGrade: False) [< 1 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.RegisterStudent_WhenDataIsValid_PersistsStudent [1 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.RegisterStudent_WhenNormalizedCodeExists_RejectsDuplicate [1 ms]
+  Correctas Codice.UnitTests.Application.AcademicServicesTests.CreateCourseAndEvents_WhenDataIsValid_PersistsAcademicContext [3 ms]
+
+La serie de pruebas se ejecutó correctamente.
+Pruebas totales: 41
+     Correcto: 41
+ Tiempo total: 1,1025 Segundos
+ADVERTENCIA: Se sobrescribirá el archivo de resultados: C:\Users\blasp\Desktop\ENE_PROYECT\docs\03-codice\test-evidence\current\unit-tests.trx
+Archivo de resultados: C:\Users\blasp\Desktop\ENE_PROYECT\docs\03-codice\test-evidence\current\unit-tests.trx
+Serie de pruebas para C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.IntegrationTests\bin\Release\net10.0\Codice.IntegrationTests.dll (.NETCoreApp,Version=v10.0)
+1 archivos de prueba en total coincidieron con el patrón especificado.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.14]   Discovering: Codice.IntegrationTests
+[xUnit.net 00:00:00.22]   Discovered:  Codice.IntegrationTests
+[xUnit.net 00:00:00.25]   Starting:    Codice.IntegrationTests
+  Correctas Codice.IntegrationTests.SqlitePersistenceTests.SaveCourse_WhenForeignKeyIsMissing_RollsBackEntireGraph [2 s]
+  Correctas Codice.IntegrationTests.SqlitePersistenceTests.CopyClosedData_WhenMovedToAccentedPath_ReportsRemainAvailable [331 ms]
+  Correctas Codice.IntegrationTests.SqlitePersistenceTests.CorrectRecords_WhenReloaded_PersistsChangesWithoutDuplicates [112 ms]
+  Correctas Codice.IntegrationTests.SqlitePersistenceTests.SaveAndReopen_WhenAcademicGraphExists_PreservesIdentityLinksAndReports [136 ms]
+  Correctas Codice.IntegrationTests.SqlitePersistenceTests.Save_WhenCodeIsDuplicated_DatabaseRejectsWithoutPartialWrites [53 ms]
+  Correctas Codice.IntegrationTests.SqlitePersistenceTests.AcquireLease_WhenAnotherInstanceOwnsFolder_RejectsUntilReleased [4 ms]
+[xUnit.net 00:00:03.14]   Finished:    Codice.IntegrationTests
+  Correctas Codice.IntegrationTests.SqlitePersistenceTests.RawWrite_WhenGradeOrAttendanceIsInvalid_CheckConstraintRejects [75 ms]
+  Correctas Codice.IntegrationTests.SqlitePersistenceTests.SaveCourse_WhenStudentWasEditedSeparately_DoesNotOverwriteName [93 ms]
+
+La serie de pruebas se ejecutó correctamente.
+Pruebas totales: 8
+     Correcto: 8
+ Tiempo total: 3,8380 Segundos
+ADVERTENCIA: Se sobrescribirá el archivo de resultados: C:\Users\blasp\Desktop\ENE_PROYECT\docs\03-codice\test-evidence\current\integration-tests.trx
+Archivo de resultados: C:\Users\blasp\Desktop\ENE_PROYECT\docs\03-codice\test-evidence\current\integration-tests.trx
+Serie de pruebas para C:\Users\blasp\Desktop\ENE_PROYECT\tests\Codice.DesktopTests\bin\Release\net10.0-windows\Codice.DesktopTests.dll (.NETCoreApp,Version=v10.0)
+1 archivos de prueba en total coincidieron con el patrón especificado.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.13]   Discovering: Codice.DesktopTests
+[xUnit.net 00:00:00.20]   Discovered:  Codice.DesktopTests
+[xUnit.net 00:00:00.24]   Starting:    Codice.DesktopTests
+  Correctas Codice.DesktopTests.DesktopWorkflowTests.CoursesForm_WhenSessionTimeIsMalformed_DoesNotCreateSession [2 s]
+  Correctas Codice.DesktopTests.DesktopWorkflowTests.StudentAndSubjectForms_WhenCreatedAndEdited_PreserveCodesAndIdentity [176 ms]
+  Correctas Codice.DesktopTests.DesktopWorkflowTests.StudentForm_WhenRequiredFieldIsMissing_ShowsSpanishErrorWithoutSaving(code: "EST-1", first: "", last: "Pérez") [62 ms]
+  Correctas Codice.DesktopTests.DesktopWorkflowTests.StudentForm_WhenRequiredFieldIsMissing_ShowsSpanishErrorWithoutSaving(code: "", first: "Ana", last: "Pérez") [50 ms]
+[xUnit.net 00:00:03.55]   Finished:    Codice.DesktopTests
+  Correctas Codice.DesktopTests.DesktopWorkflowTests.AttendanceForm_WhenSessionIsFuture_ShowsErrorAndLeavesRecordPending [222 ms]
+  Correctas Codice.DesktopTests.DesktopWorkflowTests.AcademicForms_WhenEntireFlowIsPerformed_PersistCorrectionsAndBothReportScopes [531 ms]
+
+La serie de pruebas se ejecutó correctamente.
+Pruebas totales: 6
+     Correcto: 6
+ Tiempo total: 4,2496 Segundos
+ADVERTENCIA: Se sobrescribirá el archivo de resultados: C:\Users\blasp\Desktop\ENE_PROYECT\docs\03-codice\test-evidence\current\desktop-tests.trx
+Archivo de resultados: C:\Users\blasp\Desktop\ENE_PROYECT\docs\03-codice\test-evidence\current\desktop-tests.trx
